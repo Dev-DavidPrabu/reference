@@ -1,0 +1,51 @@
+@import "../../App.scss";
+
+.wallet-size {
+  &-color {
+    color: $textblue;
+  }
+  &-colorLine {
+    color: $textblue;
+    text-decoration: underline;
+  }
+  &-mandatory {
+    color: $Redbtn;
+  }
+  &-editbutton {
+    border-radius: 0;
+    padding: 5px 5px;
+  }
+  &-formRadius {
+    border-radius: unset;
+    min-height: 40px;
+    font-size: 14px;
+  }
+}
+.wallet-search {
+  background: #36393a;
+  min-height: 4rem;
+  max-height: 4rem;
+  align-items: center;
+  display: flex;
+  padding: 0 3rem 0 3rem;
+  width: 100%;
+  justify-content: space-evenly;
+
+  &-drop {
+    height: 40px;
+    font-size: 14px;
+  }
+
+  &-filter {
+    background: #e30613;
+    height: 40px;
+  }
+  &-back {
+    background: #867e7e;
+    height: 38px;
+    font-size: 10px;
+  }
+  &-button {
+    background-color: $Redbtn;
+  }
+}

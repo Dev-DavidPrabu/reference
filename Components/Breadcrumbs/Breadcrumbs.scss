@@ -1,0 +1,36 @@
+.breadcrumb a {
+  text-decoration: none;
+  color: black;
+}
+.breadcrumb a:hover {
+  color: #21252994;
+}
+.after {
+  position: relative;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+.link {
+  position: relative;
+  top: 6px;
+  left: 10px;
+}
+.after::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: -18px;
+  width: 30px;
+  height: 37px;
+  transform: scale(0.707) rotate(45deg);
+  z-index: 1;
+  border-radius: 0 5px 0 50px;
+  transition: background 0.5s;
+  box-shadow: 2px -2px 0 1px #cfcfcf;
+}
+.currentLink {
+  font-weight: bold;
+}
+.normalLink {
+  font-weight: lighter;
+}

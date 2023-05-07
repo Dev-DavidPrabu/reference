@@ -1,0 +1,39 @@
+@import "../../App.scss";
+
+.current-page{
+    &-user {
+        background: $backColour;
+        width: 100%;
+        height: 35px;
+        font-size: 14px;
+        font-weight: 400;
+    }
+    &-lock {
+        background: $backColour;
+        width: 100%;
+        height: 35px;
+        font-size: 14px;
+        font-weight: 400;
+    }
+    
+}
+
+.page-bottom-arrow {
+    position: relative;
+    background:$Redbtn !important;
+  }
+  
+  .page-bottom-arrow::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: calc(50% - 10px);
+    background: $Redbtn;
+    width: 15px;
+    height: 10px;
+    clip-path: polygon(0 0, 100% 0, 50% 100%);
+  }
+
+  .customer-navigate-height{
+      height: 50px !important;
+  }

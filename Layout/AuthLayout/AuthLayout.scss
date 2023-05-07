@@ -1,0 +1,160 @@
+@import "../../App.scss";
+
+.header {
+  background: #f3f3f3;
+  padding: 0.5rem;
+  margin-left: -11px;
+}
+.header-icons {
+  width: 20%;
+}
+.user-avatar {
+  height: auto;
+  width: 2em;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.notify-icons {
+  font-size: 27px;
+  width: 0.7em;
+}
+
+.dashboard-title {
+  font-weight: bold;
+  font-size: 20px;
+  padding: 12px;
+}
+
+.color-white {
+  color: white;
+}
+.ant-menu-submenu-active:hover,
+.ant-menu-item-active:hover {
+  background: $Redbtn;
+  color: white;
+}
+.nav-link-menu {
+  background: $Redbtn;
+}
+.nav-link:hover {
+  background-color: $Redbtn;
+  color: white;
+}
+
+.sidebar-background {
+  background: #36393a;
+  min-height: 100vh;
+  min-width: 275px;
+  float: right;
+  color: white;
+  text-align: justify;
+}
+.auth-collapse {
+  &-menu {
+    width: 78%;
+  }
+  &-unMenu {
+    width: 100%;
+  }
+}
+
+.sidebar-collapse {
+  background: #36393a;
+  max-height: 80px;
+  min-width: 320px;
+  max-width: 320px;
+  color: white;
+  text-align: center;
+}
+
+.breadcrumbs-layout {
+  display: flex;
+  background-color: #f3f3f3;
+  margin: 10px 20px 15px 20px;
+  height: 50px;
+  align-items: center;
+}
+.mr-custom {
+  margin: 0px 10px 0px 20px;
+}
+.copyright-text {
+  width: 100%;
+  bottom: 0;
+  background-color: white;
+  font-size: 14px;
+}
+.disappear {
+  display: none;
+}
+.icon {
+  margin: 10px;
+}
+.current-date {
+  @include module-label;
+}
+.global-menu {
+  .ant-menu-sub.ant-menu-inline {
+    background: #36393a;
+  }
+  .ant-menu-submenu-title ul li {
+    background: #e30613;
+  }
+  .ant-menu-title-content,
+  .ant-menu-submenu-arrow,
+  .ant-menu-submenu-arrow:hover,
+  .ant-menu-submenu-arrow:focus {
+    color: #ffffff;
+  }
+  .ant-menu-submenu-arrow {
+    color: #ffffff !important;
+  }
+
+  .ant-menu-vertical .ant-menu-item::after,
+  .ant-menu-vertical-left .ant-menu-item::after,
+  .ant-menu-vertical-right .ant-menu-item::after,
+  .ant-menu-inline .ant-menu-item::after {
+    border-right: unset;
+  }
+  .ant-menu:not(.ant-menu-horizontal) .ant-menu-item-selected {
+    background-color: $Redbtn;
+  }
+  .ant-menu-inline .ant-menu-submenu {
+    padding-bottom: 0px !important;
+  }
+}
+.margin {
+  margin-top: 150px;
+}
+.svg {
+  height: 2em !important;
+  width: 2em !important;
+}
+
+
+.sidebar-temp{
+  position: fixed;
+  overflow-y: auto;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 22%;
+}
+
+
+@media(max-width:1536px){
+  .sidebar-temp{
+    position: fixed;
+    overflow-y: scroll;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 26% !important;
+}
+  .auth-collapse {
+    &-menu {
+      width: 74%;
+    }
+  }
+}
+

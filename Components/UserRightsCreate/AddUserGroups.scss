@@ -1,0 +1,90 @@
+@import '../../App.scss';
+
+.container-group {
+    margin: 10px 10px 10px 10px;
+    width: 90%;
+    min-height: 100%;
+    &-header {
+      font-size: 22px;
+      &-add{
+        height: 35px;
+        width: 40%;
+        font-weight: 500;
+      }
+      &-back{
+        background: $backColour;
+        border: 0;
+        height: 35px;
+      }
+    }
+    &-body {
+      background: #f3f3f3;
+      width: 70%;
+      &-label {
+        width: 30%;
+        height: 20px;
+        font-size: 14px;
+        &-color {
+          color: $Redbtn;
+        }
+      }
+      &-input {
+        width: 75%;
+        height: 30px;
+        font-size: 14px;
+        font-weight: bold;
+        &-login{
+            width: 50%;
+            height: 30px;
+            font-size: 14px;
+            font-weight: bold; 
+        }
+        &-comment {
+          width: 95%;
+          height: 80px;
+          font-size: 14px;
+          font-weight: bold;
+        }
+        &-mobile {
+          width: 43%;
+          height: 30px;
+          font-size: 14px;
+          font-weight: bold;
+        }
+        &-country {
+          width: 12%;
+          height: 30px;
+          font-size: 14px;
+        }
+      }
+    }
+    &-get-button {
+        background: $Redbtn;
+        border-radius: 0;
+        width: 25%;
+        color: white;
+        height: 30px;
+        font-weight: 500;
+        font-size: 10px;
+      }
+      &-get-button:hover{
+      color: white;
+      }
+      .saveButton {
+        background: $Redbtn;
+        width: 80px;
+        height: 30px;
+        font-weight: 500;
+        margin-right: 1rem;
+        margin-left: -5rem;
+        color: white;
+        @include module-label;
+      }
+      .cancel-button{
+      margin-right: 1rem;
+      }
+  }
+  .statusWidth{
+    width: 30% !important;
+    margin-left: -13px !important;
+  }

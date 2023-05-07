@@ -1,0 +1,57 @@
+@import "../../App.scss";
+.title {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 37px;
+  color: #000000;
+}
+.addIdtype {
+  &-drop {
+    font-size: 14px;
+  }
+}
+.cancel-btn {
+  height: 30px;
+  width: 80px;
+}
+.label-text {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px !important;
+  color: #000000;
+}
+.button-sub-can {
+  margin-left: 3rem;
+}
+.mandatory-fields {
+  color: #e30613;
+  text-align: end;
+  margin-top: 1rem !important;
+}
+.backbtn {
+  width: 77px;
+  height: 35px;
+  background: #f3f3f3;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  color: #000000;
+}
+.backbtn:hover {
+  background: $cancelhover;
+}
+.add-idType-wrapper {
+  background: rgb(243, 243, 243);
+  width: 100%;
+}
+.add-idType-form {
+  padding: 2rem 3rem 1rem 3rem;
+}
+.timebox {
+  width: 50%;
+}

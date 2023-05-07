@@ -1,0 +1,65 @@
+.error-text-red {
+  color: #f52b07;
+  font-size: 11px;
+  font-weight: bold;
+}
+
+.festive-package {
+  &-step {
+    width: 25%;
+
+    padding-bottom: 1rem;
+  }
+  &-one {
+    width: 4rem;
+    text-align: center;
+    color: white;
+    font-weight: 500;
+    height: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #e30613;
+    margin-right: -10px;
+  }
+  &-two {
+    width: 4rem;
+    text-align: center;
+    color: white;
+    font-weight: 500;
+    height: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #e30613;
+    margin-left: -10px;
+  }
+  &-three {
+    width: 4rem;
+    text-align: center;
+    color: white;
+    font-weight: 500;
+    height: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: grey;
+    margin-left: -10px;
+  }
+  &-four {
+    width: 4rem;
+    text-align: center;
+    color: white;
+    font-weight: 500;
+    height: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: grey;
+    margin-right: -10px;
+  }
+  &-check-box {
+    height: 25px;
+    width: 50%;
+  }
+}

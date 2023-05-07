@@ -1,0 +1,30 @@
+@import "../../App.scss";
+
+.fiters-selected {
+  &-label {
+    @include add-cutomer-form-label;
+  }
+  &-back {
+    background-color: $backColour;
+  }
+  &-filterArea {
+    width: 20%;
+    height: 40px;
+    background-color: $Greybtn;
+    border-radius: 5px;
+  }
+}
+.selected-filter {
+  overflow-x: auto;
+  background: $backColour;
+  div {
+    background: $Greybtn;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-right: 1rem;
+    width: fit-content;
+    padding: 5px 15px;
+    border-radius: 5px;
+  }
+}

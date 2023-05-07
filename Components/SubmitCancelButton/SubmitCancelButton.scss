@@ -1,0 +1,31 @@
+@import "../../App.scss";
+
+.SubmitCancelButton {
+  &-save {
+    background: $Redbtn;
+    width: 80px;
+    height: 30px;
+    font-weight: 500;
+    color: white;
+    @include module-label;
+  }
+  &-save:hover {
+    background: $submithover;
+  }
+  &-cancel {
+    background: $Greybtn;
+    height: 30px;
+    width: 80px;
+    font-size: 14px;
+    font-weight: 500;
+    color: $black;
+    @include module-label;
+  }
+  &-cancel:hover {
+    background-color: #ababab !important;
+    color: white !important;
+  }
+}
+.ml-4px {
+  margin-left: 4px;
+}

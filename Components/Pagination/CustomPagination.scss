@@ -1,0 +1,41 @@
+.pagination-select {
+  height: 1.5rem;
+  width: 5rem;
+
+  border-radius: 0px;
+
+  background: none;
+}
+.pagination-navigator {
+  cursor: pointer;
+  color: blue;
+}
+
+.pagination-navigator-disable {
+  cursor: pointer;
+  color: gray;
+}
+.pagination-input {
+  width: 30px;
+  height: 23px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+.disable-pagination {
+  cursor: not-allowed;
+  color: rgba(0, 0, 0, 0.555);
+}
+.font-style-pagination {
+  font-size: 14px !important;
+  line-height: 1rem !important;
+  font-weight: 500;
+}

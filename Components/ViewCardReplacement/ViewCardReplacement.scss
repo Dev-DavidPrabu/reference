@@ -1,0 +1,78 @@
+@import "../../App.scss";
+.replace-card-view{
+    &-body{
+        background: $backColour;
+        width: 100%;
+        min-height: 650px;
+        max-height: 950px;
+    }
+    &-label{
+        font-size: 11px;
+        font-weight: 400;
+        line-height: 16px;
+        &-color{
+            color: $Redbtn;
+        }
+    }
+    &-inputCode{
+        outline: none;
+        height: 35px;
+        width: 23%;
+        border-radius: 0px;
+    }
+    &-inputCode[readonly]{
+        background-color: $Greybtn;
+     }
+    &-inputMobile{
+        outline: none;
+        height: 35px;
+        width: 100%;
+        border-radius: 0px;
+    }
+    &-inputMobile[readonly]{
+       background-color: $Greybtn;
+    }
+    &-inputType{
+        outline: none;
+        height: 35px;
+        width: 12rem;
+        border-radius: 0px;
+    }
+    &-inputType[readonly]{
+        background-color: $Greybtn;
+     }
+    &-inputTypeForm{
+        outline: none;
+        height: 35px;
+        width: 6rem;
+        border-radius: 0px;
+    }
+    &-formColor{
+        background: $formColor;
+        height: 6rem;
+        margin: 0rem;
+    }
+    &-title{
+        @include edit-header;
+    }
+    &-back{
+        width: 77px;
+        height: 35px;
+    }
+}
+.SelfieUnblock{
+    background-image: url(../../assets//logo-final.png);
+}
+.imageViewCardImage{
+    margin-top: 2rem;
+    height: 12rem;
+}
+.inputTime{
+    width: 12%;
+}
+.selfieHeight{
+    height: 200px;
+}
+
+
+

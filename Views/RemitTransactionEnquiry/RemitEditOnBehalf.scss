@@ -1,0 +1,119 @@
+@import "../../App.scss";
+.edit-behalf-wrapper {
+  background: rgb(243, 243, 243);
+  width: 100%;
+}
+.backbtneditBehalf {
+  width: 77px;
+  height: 35px;
+  background: #f3f3f3;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  color: #000000;
+}
+.edit-behalf-form {
+  padding: 2rem 3rem 1rem 3rem;
+}
+.eyeiconDivEdit {
+  margin-top: -8px;
+}
+.eyeiconleftEdit {
+  margin-left: 15px;
+}
+.save-button:hover {
+  background: $submithover;
+}
+.frontEye {
+  background: $textGreen;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  width: 75px;
+  height: 35px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  color: #ffffff;
+  padding: 6px;
+}
+.backEyeEdit {
+  background: $textGreen;
+  display: flex;
+  width: 75px;
+  height: 35px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  color: #ffffff;
+  padding: 6px;
+  margin-left: 2rem;
+}
+.backBtnClr {
+  background: $textGreen;
+  padding-left: 6px;
+}
+.modalBodyPopUpEdit {
+  height: 400px;
+}
+.modalpopRemitEdit {
+  &-wrapper {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 300px;
+  }
+  &-title {
+    padding: 2rem 1rem 2rem 1rem;
+    font-weight: 700;
+    font-size: 18px;
+  }
+}
+.uploadBtn {
+  background: $textGreen;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  width: 92px;
+  cursor: pointer;
+  height: 30px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  color: #ffffff;
+  padding: 6px;
+}
+.cancelBtn {
+  background: $Redbtn;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  width: 75px;
+  height: 35px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  color: #ffffff;
+  padding: 6px;
+  margin-left: 20px;
+}
+.titleModal {
+  text-align: center;
+}
+.closeIconpopup {
+  display: flex;
+  justify-content: right;
+}
+.closeIconSize {
+  font-size: 25px;
+  color: #e30613;
+}

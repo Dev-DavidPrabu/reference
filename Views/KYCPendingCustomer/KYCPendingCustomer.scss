@@ -1,0 +1,70 @@
+.kyc-screen{
+    font-size: 12px !important;
+    font-weight: 400  !important;
+    width: 165px;
+    height: 35px;
+}
+.kyc-filterTab{
+    background: #363931;
+}
+.kyc-filterHeading{
+font-family: 'Poppins',sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 25px;
+line-height: 37px;
+color: #FFFFFF;
+}
+.kyc-warningText{
+    font-family: "Poppins",sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 18px;
+color: #E30613;
+float :right
+}
+.Kyc-Filterlabel{
+    font-family: 'Poppins',sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 18px;
+color: #FFFFFF;
+
+}
+
+.Kyc-FilterINputBox{
+    background: #FFFFFF;
+    border: 1px solid #CFCFCF;
+    box-sizing: border-box;
+    border-radius: 0%;
+    height: 36px;
+}
+.kyc-FilterSubmitButton{
+    background: #E30613 !important;
+    padding: 5px 12px;
+    font-size: 14px;
+}
+.kyc-FilterSubmitButton:hover{
+    background-color:#C2000B !important;
+}
+.kyc-FilterResetButton{
+    background-color: #CFCFCF;
+    color: black;
+    padding: 5px 12px;
+    font-size: 14px;
+}
+.kyc-noBorder{
+border-radius: 0%;
+}
+
+.kyc-FilterSearchButton{
+    background: #E30613;
+    padding: 5.5px 12px;
+    font-size:14px;
+}
+.kyc-FilterSearchButton:hover{
+    background-color:#C2000B;
+}
+

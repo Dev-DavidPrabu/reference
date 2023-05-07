@@ -1,0 +1,16 @@
+
+@import '../../App.scss';
+
+.add{
+    &-parameter{
+        background: $Redbtn;
+        min-height: 30px;
+    }
+    &-button {
+        background: $Redbtn;
+        border-radius: 0;
+        font-weight: 500;
+        width: 40px;
+        min-height: 45px;
+      }
+}

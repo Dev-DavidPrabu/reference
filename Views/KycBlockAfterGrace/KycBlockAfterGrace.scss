@@ -1,0 +1,102 @@
+.expairyWallet-filter-section {
+    background: #36393a;
+    min-height: 160px;
+    &-input {
+    width: 95%;
+    height: 25px;
+    font-size: 10px;
+    font-weight: bold;
+    }
+    &-filter {
+    background: gray;
+    width: 32px;
+    height: 25px;
+    font-size: 10px;
+    }
+    &-forword {
+    background: #867e7e;
+    width: 40px;
+    height: 30px;
+    font-size: 10px;
+    }
+    }
+    .colorRed {
+    color: #e30613;
+    float: right;
+    font-size: 14px;
+    font-weight: 400;
+    }
+    .dropdown {
+    position: relative;
+    display: inline-block;
+    }
+    .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 90px;
+    height: 50px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    }
+    .dropdown-content a {
+    color: black;
+    padding: 30px 40px;
+    text-decoration: none;
+    display: block;
+    }
+    .dropdown-content a:hover {
+    background-color: white;
+    }
+    .dropdown:hover .dropdown-content {
+    display: block;
+    }
+    .texttt {
+    padding: 5px;
+    }
+    .forBtn-country {
+    margin: 5px;
+    min-height: 35px;
+    margin-top: -25px;
+    }
+    .text-Country {
+    margin-left: 8px; 
+    }
+    .filteredArea {
+    background-color: #f3f3f3;
+    height: 50px;
+    margin: 0px;
+    padding: 5px;
+    margin-bottom: 20px;
+    align-items: center;
+    }
+    .conColor {
+    background-color: #cfcfcf;
+    height: 30px;
+    border-radius: 5px;
+    width: 300px;
+    align-items: center;
+    }
+    .paraText{
+    text-align: center;
+    margin-top: 5px;
+    }
+    .formRadius{
+    border-radius: unset; 
+    }
+    .filterRow{
+    margin-left: -34px;
+    }
+    .filterBtn{
+    margin-top: 22px;
+    margin-right: -98px;
+    margin-left: -25px
+    }
+    .inputField{
+    margin-left: 12px;
+    }
+    .countryName{
+    text-align: center;
+    margin-top: 6px;
+    }
+    .ant-table-column-title { width: 90%; }    

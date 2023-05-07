@@ -1,0 +1,45 @@
+@import "../../App.scss";
+
+.red {
+  color: $Redbtn;
+}
+.green {
+  color: #39c570;
+}
+.dropbtnBranch {
+  color: #cfcfcf;
+}
+.remit-branchsetup {
+  &-input {
+    text-align: left;
+    padding: 0px;
+    height: 45px;
+  }
+}
+.formRadiusBranch {
+  border-radius: unset;
+}
+.filterRowBranch {
+  margin-left: -34px;
+}
+.filterBtnBranch {
+  margin-top: 22px;
+  margin-right: -98px;
+  margin-left: -25px;
+}
+.inputFieldBranch {
+  margin-left: 12px;
+}
+.branchSetupTitle {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  color: #ffffff;
+}
+.branchFilter {
+  margin-top: -15px;
+}
+.alignment {
+  margin-left: -1rem;
+}

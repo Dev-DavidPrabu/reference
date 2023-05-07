@@ -1,0 +1,17 @@
+$bgcolor: #36393a;
+.language-parameter-search{
+    background: $bgcolor;
+    min-height: 4rem;
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    justify-content: space-around;
+    .search{
+        width: 48%;
+        height: 40px!important
+    }
+    .language-search-input{
+        width: 48%;
+        height: 40px!important
+    }
+}

@@ -1,0 +1,120 @@
+.header-group {
+  &-add {
+    background: #e30613;
+    width: 60%;
+    height: 40px;
+    border-radius: 0;
+    font-weight: 700;
+    padding: 10px 10px;
+    font-size: 10px;
+  }
+  &-icon-active {
+    padding: 2px;
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 0px;
+    background: #39c570;
+    position: relative;
+
+    font-weight: 700;
+    width: 25px;
+    height: 25px;
+  }
+  &-icon-inactive {
+    padding: 2px;
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 0px;
+    background: #cfcfcf;
+    position: relative;
+
+    width: 25px;
+    height: 25px;
+  }
+}
+.common-icon {
+  height: 45px;
+  min-width: 50px;
+  background: #36393a;
+  margin: unset;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  color: white;
+}
+.common-icon-disabled {
+  height: 45px;
+  width: 50px;
+  background: #36393a;
+
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  color: white;
+  pointer-events: none;
+}
+.mar-left-2 {
+  margin-left: 2rem;
+}
+.fs-14 {
+  font-size: 14px;
+}
+.add-btn {
+  height: 45px;
+  width: 8rem;
+  font-weight: 700;
+}
+
+.btn-size {
+  line-height: 1;
+}
+.search {
+  width: 60%;
+}
+.Addicon {
+  align-items: center;
+}
+.cursor {
+  cursor: pointer;
+}
+.colorWhite {
+  color: white !important;
+}
+.searchFor {
+  margin-left: auto;
+}
+.textFormat {
+  display: contents;
+}
+.user-filter-section-rights {
+  background: #36393a;
+  max-height: 75px !important;
+  &-input {
+    width: 95%;
+    height: 25px;
+    font-size: 10px;
+    font-weight: bold;
+  }
+  &-filter {
+    background: #e30613;
+    width: 40px;
+    height: 30px;
+    font-size: 10px;
+  }
+  &-forword {
+    background: #867e7e;
+    width: 40px;
+    height: 30px;
+    font-size: 10px;
+  }
+}
+.search-btn {
+  background-color: #e30613 !important;
+}
+.search-btn:hover {
+  background: #bb212a !important;
+}

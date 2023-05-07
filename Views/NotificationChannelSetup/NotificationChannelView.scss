@@ -1,0 +1,12 @@
+.channel-text-area {
+  outline: none;
+  width: 100%;
+  min-height: 80px;
+}
+.channel-view{
+&-textarea{
+  outline: none;
+  min-height: 30px;
+  width: 80%;
+}
+}

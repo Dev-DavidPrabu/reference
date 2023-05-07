@@ -1,0 +1,39 @@
+.button-header {
+  border: none;
+
+  padding: 5px 50px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.button1-header {
+  background-color: #f2f1ed;
+  color: black;
+  border: none;
+}
+
+.button1-header:hover {
+  background-color: #a8a8a5;
+  color: black;
+}
+.button-wrapper-center-btn {
+  width: 100%;
+}
+
+.btn1-width {
+  width: 40%;
+}
+.btn2-width {
+  height: 2.2rem;
+  width: 20%;
+}
+
+.btn-height-plus-icons {
+  height: 2.2rem;
+}

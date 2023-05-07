@@ -1,0 +1,33 @@
+@import "../../App.scss";
+
+.edit-sum{
+    &-label{
+        @include edit-form-label;
+        &-color {
+            color: #f44336;
+          }
+    }
+    &-input{
+        outline: none;
+        height: 30px;
+        width: 80%;
+        font-size: 14px;
+    }
+    &-textarea{
+        outline: none;
+        width: 80%; 
+    }
+    &-select{
+        height: 25px;
+        width: 55%;
+    }
+    &-ht{
+        height:75px;
+        overflow-y: hidden;
+        padding: 5px 0px 0px 10px;
+    }
+    &-summarybtn{
+    margin-left: 15rem;
+
+    }
+}

@@ -1,0 +1,74 @@
+@import "../../App.scss";
+
+
+.nextBtnBlock {
+    border-radius: unset;
+    margin-right: 5rem;
+    width: 5rem;
+    background: $Redbtn;
+    border: none;
+    height: 2rem;
+    font-weight: bold;
+    float: right;
+    padding: 0px;
+    margin-top: 23px;
+  }
+  
+  .backBtnBlock {
+    border-radius: unset;
+    margin-right: 6rem;
+    width: 5rem;
+    background: $Greybtn;
+    color:$black;
+    border: none;
+    height: 2rem;
+    font-weight: bold;
+    padding: 0px;
+    float: right;
+    margin-top: 23px;
+  }
+  .buttonPositionBlock {
+    margin-top: 24px;
+  }
+
+  .blockTitle{
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    color: $white;
+  }
+  .block-card-section {
+    background: $backgroundDark;
+    min-height: 140px;
+    &-input {
+      width: 95%;
+      height: 25px;
+      font-size: 10px;
+      font-weight: bold;
+    }
+    &-filter {
+      background:$Greybtn;
+      width: 32px;
+      height: 25px;
+      font-size: 10px;
+    }
+    &-forword {
+      background: #867e7e;
+      width: 40px;
+      height: 30px;
+      font-size: 10px;
+    }
+    &-color{
+      color: $textblue;
+  }
+  }
+  .formRadiusBlock{
+      height: 34px;
+    border-radius: unset; 
+  }
+  .formRadiusBlockCode{
+    height: 34px;
+    border-radius: unset; 
+    width: 10rem;
+  }

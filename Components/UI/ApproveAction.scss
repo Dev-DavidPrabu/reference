@@ -1,0 +1,11 @@
+@import "../../App.scss";
+
+.subhover:hover{
+    background: $submithover !important;
+}
+.cancelhover:hover{
+    background: $cancelhover;
+}
+.approve-position{
+    margin-left: -3.5rem;
+}

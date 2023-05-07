@@ -1,0 +1,30 @@
+
+@import '../../App.scss';
+
+
+
+.remit-branch{
+
+    &-title{
+        @include header-title;
+    }
+
+    &-background{
+        background: $backColour;
+        min-height: 200px;
+        width: 75%;
+    }
+    &-input{
+        font-size: 10px;
+    }
+    &-address{
+        min-height: 40px;
+        font-size: 10px;
+    }
+    &-flag{
+        height: 30px
+    }
+    &-label{
+        @include add-cutomer-form-label;
+    }
+}

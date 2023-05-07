@@ -1,0 +1,44 @@
+.customerEnquiry-editBtn{
+    background: #000000d9;
+    color: white;
+    margin-right: 10px;
+    border-radius: unset;
+    float: right;
+    width: 2.2rem;
+    height: 2.2rem;
+    font-weight: bold;
+    border: none;
+}
+
+.remarks-customerEdit{
+    background-color:#f3f3f3;
+    margin:10px 25px;
+}
+
+.customerEdit-remarkLabel{
+ align-items: baseline;
+ margin-top: 10px;
+}
+
+.remarks-inputBox{
+    width: 300px;
+}
+
+.customerEdit-inputBox{
+    width:91%;
+    min-width:150px;
+    border-radius:0px;
+    height:35px;
+}
+
+.customerEnquiry-btn-disabled{
+    pointer-events: none;
+}
+
+.customerEdit-btn{
+    height: 35px;
+}
+
+.customer-status-container{
+    background-color: white;
+}

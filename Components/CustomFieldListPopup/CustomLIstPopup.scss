@@ -1,0 +1,41 @@
+$blue: white;
+$lightblue: white;
+$cyan: white;
+.basePopup {
+  border-radius: 0rem;
+}
+.basePopup:hover {
+  background: linear-gradient(to left, $lightblue, $blue);
+  color: black;
+  border-radius: 0rem;
+}
+
+.wh-20 {
+  height: 20px;
+  width: 20px;
+  background-color: #e9e9e9;
+}
+.wh-20:checked {
+  background-color: #363931;
+}
+.sideBar {
+  background-color: hsl(0, 0%, 91%);
+}
+.sideBarRight {
+  background-color: #e9e9e9;
+
+  padding: 6px;
+}
+.popUp {
+  margin: -16px;
+  margin-top: 12px;
+}
+.linePopUp {
+  height: 2px;
+  flex: 1;
+  background: #363931;
+  width: 100%;
+}
+.bodyColor {
+  background-color: #363931;
+}

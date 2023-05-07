@@ -1,0 +1,53 @@
+@import "../../App.scss";
+
+.prefund-Account-header {
+  height: 100%;
+}
+.prefund-Account-table-content {
+  text-align: center;
+}
+.prefund-Account-center-btn {
+  height: 5%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 1rem;
+}
+
+.prefund-Account-heading {
+  background: rgb(231, 228, 228);
+  border: 1px solid black;
+  border-radius: 5px;
+  margin-top: 2px;
+  margin-bottom: 2px;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  font-size: 14px;
+  font-weight: 700;
+  margin-left: 2px;
+}
+.prefund-Account-input {
+  text-align: left;
+  padding: 0px;
+  height: 45px;
+}
+.Prefund-Account-row {
+  padding-right: calc(var(--bs-gutter-x) * 0.3);
+  padding-left: calc(var(--bs-gutter-x) * 0.3);
+}
+
+.Submit-btn {
+  background-color: $Redbtn;
+}
+
+.Transaction-filter-section {
+  background-color: $backgroundDark;
+}
+.Submit-btn:hover {
+  background: $submithover;
+}
+.resetbtns:hover {
+  background: $cancelhover;
+}

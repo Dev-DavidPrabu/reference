@@ -1,0 +1,35 @@
+@import "../../App.scss";
+
+.lock-blocking {
+  &-title {
+    @include header-title;
+  }
+  &-field {
+    @include edit-form-label;
+  }
+  &-back {
+    background: $backColour;
+    width: 60%;
+  }
+  &-input{
+    font-size: 14px;
+  }
+}
+.ft-btn {
+  background-color: #e30613;
+  padding: 6px 15px;
+}
+.ft-btn:hover{
+  background: #BB212A;
+}
+.ft-cnl {
+  background-color: #cfcfcf;
+  padding: 6px 15px;
+}
+.ft-cnl:hover{
+  background: #9D9D9D;
+  color:white;
+}
+.ms-6 {
+  margin-left: 25%;
+}

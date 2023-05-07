@@ -1,0 +1,63 @@
+@import "../../App.scss";
+
+.notification-master {
+  &-title {
+    @include header-title;
+  }
+  &-update {
+    background: $Redbtn;
+    height: 20px;
+    width: 60px;
+  }
+  &-cancel {
+    height: 20px;
+    width: 60px;
+  }
+  &-filter {
+    height: 190px;
+    width: auto;
+    background: #363931;
+  }
+  &-input {
+    width: 200px;
+    height: 30px;
+  }
+  &-save {
+    background: $Redbtn;
+    width: 80px;
+    height: 30px;
+    font-weight: 500;
+    @include module-label;
+  }
+  &-cancel {
+    background: $Greybtn;
+    height: 30px;
+    width: 80px;
+    font-weight: 500;
+    @include module-label;
+  }
+  &-message {
+    color: $Redbtn;
+  }
+  &-input-field:nth-child(n + 2) {
+    margin-left: 20px;
+  }
+  &-search {
+    background: $backgroundDark;
+
+    &-drop {
+      min-height: 40px;
+      font-size: 14px;
+      width: 50%;
+    }
+    &-input {
+      min-height: 40px;
+      width: 50%;
+    }
+    &-back {
+      background: #867e7e;
+      height: 38px;
+      font-size: 10px;
+    }
+  }
+}

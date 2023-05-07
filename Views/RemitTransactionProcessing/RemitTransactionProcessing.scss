@@ -1,0 +1,50 @@
+@import "../../App.scss";
+
+.remitTransFilter {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 23px;
+  color: #ffffff;
+}
+.RemitTransProcessfilter {
+  height: 190px;
+  background: #363931;
+}
+.remit-processing {
+  &-color {
+    color: $textblue;
+  }
+  &-mandatory {
+    color: $Redbtn;
+  }
+  &-editbutton {
+    border-radius: 0;
+    padding: 5px 5px;
+  }
+  &-formRadius {
+    border-radius: unset;
+    min-height: 40px;
+    font-size: 14px;
+  }
+}
+
+.RemitTransProcessbackbtn {
+  width: 68px;
+  height: 30px;
+  background: #cfcfcf;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  color: #000000;
+}
+.filterArea {
+  width: 210px;
+  height: 40px;
+  background-color: $Greybtn;
+  border-radius: 5px;
+}
+.filterLeft {
+  margin-left: -5rem;
+}

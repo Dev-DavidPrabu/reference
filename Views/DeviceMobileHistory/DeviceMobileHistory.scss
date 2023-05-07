@@ -1,0 +1,101 @@
+@import "../../App.scss";
+
+.redWord {
+  color: $Redbtn;
+  font-size: 20px;
+  margin-bottom: 40px;
+  margin-top: 50px;
+}
+.redWordText {
+  color: $Redbtn;
+  font-size: 20px;
+  margin-bottom: -57px;
+  margin-top: 50px;
+}
+.backBtnTable {
+  background-color: $backColour;
+  float: right;
+  border-color: $backColour;
+}
+.searchBtnAccount {
+  background-color: $Redbtn;
+  border-color: $Redbtn;
+}
+.searchBtnAccount:hover {
+  background: #bb212a;
+}
+.marginLeft {
+  margin-left: -25rem;
+}
+.wholecol {
+  margin-top: -15px;
+}
+.filter {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 37px;
+  color: #ffffff;
+}
+.filterbox {
+  height: 150px;
+}
+.formgroup {
+  margin-top: -25px;
+}
+.label {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 21px;
+  color: #ffffff;
+}
+.device-history-color {
+  color: $Redbtn;
+}
+.mandatory {
+  margin-top: -50px;
+}
+.submitBtn {
+  margin-left: 2rem;
+}
+.resetBtn {
+  margin-left: 1rem;
+}
+.formRadiusCodeValue {
+  width: 100% !important;
+}
+.nextBtnDevice {
+  border-radius: unset;
+  margin-right: 5px;
+  width: 5rem;
+  background: $Redbtn;
+  border: none;
+  height: 40px;
+  font-weight: bold;
+  padding: 0px;
+}
+
+.backBtnDevice {
+  font-family: "Roboto", sans-serif;
+  border-radius: unset;
+  margin-right: 0rem;
+  width: 5rem;
+  border: none;
+  height: 40px;
+  color: black;
+  font-weight: 400;
+  font-size: 14px;
+  padding: 0px;
+}
+
+.backbtn:hover {
+  background: $cancelhover;
+}
+.formRadiusUserAccount {
+  font-size: 16px;
+  height: 40px;
+  padding: 17px;
+}

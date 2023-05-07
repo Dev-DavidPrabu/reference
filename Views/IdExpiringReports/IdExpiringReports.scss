@@ -1,0 +1,76 @@
+.idExpiringreports-filter-section {
+  background: #36393a;
+  height: auto;
+  &-input {
+    width: 100%;
+    height: 40px;
+    background: #ffffff;
+    border: 1px solid #cfcfcf;
+    font-size: 14px;
+  }
+  &-filter {
+    background: gray;
+    width: 32px;
+    height: 25px;
+    font-size: 10px;
+  }
+  &-forword {
+    background: #867e7e;
+    width: 40px;
+    height: 30px;
+    font-size: 10px;
+  }
+  &-inputCode {
+    outline: none;
+    height: 40px;
+    width: 55%;
+    border-radius: 0.25rem;
+    font-size: 14px;
+  }
+}
+.colorRed {
+  color: #e30613;
+  float: right;
+  font-size: 14px;
+  font-weight: 400;
+}
+.filterInputAlign {
+  margin-top: -20px;
+}
+.generateBtn {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: #ffffff;
+  width: 135px;
+  height: 35px;
+  background: #39c570;
+}
+
+.generateBtnXl {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: #ffffff;
+  width: 135px;
+  height: 35px;
+  background: #e30613;
+}
+.inputCode {
+  outline: none;
+  height: 40px;
+  width: 55%;
+  border-radius: 0.25rem;
+  font-size: 14px;
+}
+.inputMobile {
+  outline: none;
+  height: 40px;
+  width: 100%;
+  border-radius: 0.25rem;
+  font-size: 14px;
+}

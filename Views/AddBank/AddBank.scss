@@ -1,0 +1,44 @@
+.addBank-body {
+  background: #f3f3f3;
+  width: 100%;
+}
+.addVendor-button {
+  display: flex;
+}
+
+.AddVendor-popup {
+  position: fixed;
+  z-index: 1;
+
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+
+.vendorBox-content {
+  position: relative;
+  width: 40%;
+  margin: 0 auto;
+  height: auto;
+  max-height: 70vh;
+  margin-top: calc(100vh - 65vh - 20px);
+  background: #fff;
+  border-radius: 0px;
+  padding: 0px;
+  overflow: auto;
+  border: 1px solid #cfcfcf;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.VendorBox-header {
+  font-weight: 500;
+  font-size: 25px;
+}
+.selectAdd {
+  height: 38px;
+  border: 1px solid #cccccc !important;
+}
+.ant-select-selection-placeholder {
+  color: #808080 !important;
+}

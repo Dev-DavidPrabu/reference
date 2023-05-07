@@ -1,0 +1,213 @@
+@import "../../App.scss";
+
+.remit-bank {
+  &-body {
+    background: #f3f3f3;
+    width: 75%;
+    min-height: 350px;
+    max-height: 500px;
+  }
+  &-back {
+    width: 77px;
+    height: 35px;
+  }
+  &-title {
+    @include edit-header;
+  }
+  &-label {
+    @include edit-form-label;
+    &-color {
+      color: #e30613;
+    }
+  }
+  &-input {
+    outline: none;
+    height: 30px;
+    width: 90%;
+    &-value {
+      width: 60%;
+    }
+  }
+  &-textarea {
+    width: 90%;
+  }
+  &-message {
+    color: #e30613;
+    @include edit-form-label;
+  }
+  &-save {
+    background: #e30613;
+    width: 80px;
+    height: 30px;
+    font-weight: 500;
+    @include module-label;
+  }
+  &-cancel {
+    background: #cfcfcf;
+    height: 30px;
+    width: 80px;
+    font-weight: 500;
+    @include module-label;
+  }
+  &-viewbutton {
+    background: #e30613;
+    width: 35px;
+    height: 35px;
+    font-weight: 500;
+    @include module-label;
+  }
+}
+
+.colorRed {
+  color: #e30613;
+  float: right;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 90px;
+  height: 50px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 30px 40px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: white;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.texttt {
+  padding: 5px;
+}
+.nextBtnBank {
+  border-radius: unset;
+  margin-right: 1rem;
+  width: 5rem;
+  background: #e30613;
+  border: none;
+  height: 2rem;
+  font-weight: bold;
+  margin-top: 3rem;
+  float: right;
+  padding: 0px;
+}
+
+.backBtnBank {
+  border-radius: unset;
+  margin-right: 1rem;
+  margin-top: 3rem;
+  width: 5rem;
+  color: #cfcfcf;
+  border: none;
+  height: 2rem;
+  font-weight: bold;
+  padding: 0px;
+  float: right;
+}
+
+.text-Bank {
+  margin-left: 8px;
+}
+.filteredArea {
+  background-color: #f3f3f3;
+  height: 50px;
+  margin: 0px;
+  padding: 5px;
+  margin-bottom: 20px;
+  align-items: center;
+}
+.conColorBank {
+  background-color: #cfcfcf;
+  height: 100%;
+  border-radius: 5px;
+  width: 20%;
+  align-items: center;
+}
+.closeIcon {
+  margin-top: -23px;
+  margin-left: -32px;
+  color: #e30613;
+  height: 1.5rem;
+  width: 1.5rem;
+}
+.paraText {
+  text-align: center;
+  margin-top: 5px;
+  font-size: 14px;
+}
+.editable-row .ant-form-item-explain {
+  position: absolute;
+  top: 100%;
+  font-size: 14px;
+}
+.formRadiusBank {
+  font-size: 14px;
+  height: 40px;
+  padding: 3px;
+  text-align: left;
+}
+.filterRowBank {
+  margin-left: -34px;
+}
+.filterBtnBank {
+  margin-top: 22px;
+  margin-right: -98px;
+  margin-left: -25px;
+}
+.inputFieldBank {
+  margin-left: 12px;
+}
+.dropbtnBank {
+  color: #cfcfcf;
+}
+.margin {
+  margin-top: -2rem;
+}
+.nextBtnUpdate {
+  border-radius: unset;
+  margin-right: 1rem;
+  width: 5rem;
+  background: #e30613;
+  border: none;
+  height: 30px;
+  font-weight: bold;
+  margin-top: 3px;
+  float: right;
+  padding: 0px;
+}
+
+.backBtnUpdate {
+  border-radius: unset;
+  margin-right: 1rem;
+  margin-top: 3px;
+  width: 5rem;
+  color: #cfcfcf;
+  border: none;
+  height: 30px;
+  font-weight: bold;
+  padding: 0px;
+  float: right;
+}
+.bankSetup {
+  margin-top: -18px;
+  margin-left: -12px;
+}

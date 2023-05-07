@@ -1,0 +1,263 @@
+@import "../../App.scss";
+
+.editbuttonOn {
+  width: 120px;
+  height: 35px;
+  background: #39c570;
+  border: 0;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  color: #ffffff;
+}
+
+.editbuttonExpand{
+  width: 200px;
+  height: 35px;
+  background: #39c570;
+  border: 0;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  color: #ffffff;
+}
+
+
+.enquiry-collapse {
+  width: 120px;
+  height: 35px;
+  background: $cancelhover;
+  border: 0;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  color: #ffffff;
+}
+.Enquiry-heading {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  color: #000000;
+}
+.inputboxsize {
+  height: 35px;
+  background: #cfcfcf;
+}
+.inputLabelDetails {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  align-items: center;
+  color: #000000;
+}
+.inpuWidth {
+  width: 90% !important;
+}
+.frontEye {
+  width: 75px;
+  height: 35px;
+  background: #39c570;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  align-items: center;
+  color: #ffffff;
+  text-align: center;
+  padding: 6px;
+}
+.eyeiconleft {
+  margin-left: 15px;
+}
+.eyeicontext {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  color: #000000;
+}
+.eyeiconDiv {
+  margin-top: -8px;
+}
+
+.pepsBlock {
+  background-color: #ffffff;
+
+  p {
+    color: #363931;
+    font-size: 25px;
+    font-weight: 500;
+  }
+  h6 {
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 5px;
+  }
+}
+.matchTypeBlock {
+  background-color: #f3f3f3;
+  height: 60px;
+}
+
+.customcheckbox:hover {
+  cursor: pointer;
+}
+
+label.customcheckbox > input[type="checkbox"] {
+  display: none;
+}
+label.customcheckbox > input[type="checkbox"] + *::before {
+  content: "";
+  display: flex;
+  width: 35px;
+  height: 35px;
+  font-size: 32px;
+  font-weight: bold;
+  margin-right: 0.1rem;
+  justify-content: center;
+  align-items: center;
+  border-style: solid;
+  border-width: 0.1rem;
+  border-color: gray;
+  flex-shrink: 0;
+}
+
+label.customcheckbox > input[type="checkbox"]:checked + *::before {
+  content: "\2713";
+  color: white;
+  text-align: center;
+  background: #e30613;
+  border-color: #e30613;
+}
+
+label.customcheckbox > input[type="checkbox"] + span {
+  display: flex;
+  border: 1px solid #cfcfcf;
+  background-color: #ffffff;
+  width: 100px;
+  height: 37px;
+  padding: 0px 10px 0px 0px;
+  justify-content: center;
+  align-items: center;
+}
+
+//ecdd indicators block
+.customtext--wrapper {
+  position: relative;
+}
+.customtext {
+  width: 100%;
+  height: 35px;
+  font-size: 14px;
+  box-sizing: border-box;
+  padding-left: 40px;
+  outline: none;
+}
+.customtextgreen {
+  border: 1px solid #39c570;
+}
+.customtextred {
+  border: 1px solid #e30613;
+}
+.customcheckgreen {
+  background-color: #39c570;
+}
+.customcheckred {
+  background-color: #e30613;
+}
+.customcheck {
+  color: #ffffff;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 35px;
+  height: 35px;
+  left: 0px;
+  top: 0px;
+}
+.customtick {
+  font-size: 30px;
+}
+.ecddblock p {
+  color: #363931;
+  font-size: 25px;
+  font-weight: 500;
+}
+.ecdd-btn {
+  display: inline-block;
+  width: 75px;
+  height: 35px;
+  margin-left: 35px;
+  background-color: #e30613;
+  color: #ffffff;
+  font-size: 14px;
+  border: none;
+  outline: none;
+}
+.indicators--grid {
+  display: grid;
+  grid-template-columns: repeat(3, 310px);
+  grid-template-rows: repeat(3, 35px);
+  gap: 20px 12px;
+}
+.source-wealth {
+  width: 25%;
+  font-size: 14px;
+}
+.source-wealth-label {
+  font-size: 14px;
+}
+.modalPopUp {
+  display: block;
+  width: 700px;
+}
+.modalpopRemit {
+  &-wrapper {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 300px;
+  }
+  &-title {
+    padding: 2rem 1rem 2rem 1rem;
+    font-weight: 700;
+    font-size: 18px;
+  }
+}
+.modalBodyPopUp {
+  height: 300px;
+}
+.modalPopupBtn {
+  width: 15%;
+  height: 30px;
+  background: #e30613;
+  color: #ffffff;
+  border: none;
+  border-radius: 3px;
+}
+.modalPopupbtnDiv {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+.modalPopupHead {
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+}
+
+.account_container{
+  display: flex;
+  flex-direction: row;
+  gap:40px;
+  flex-flow: wrap;
+  width: 100%;
+  height: 100%;
+}

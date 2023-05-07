@@ -1,0 +1,30 @@
+@import "../../App.scss";
+
+
+.edit-summary{
+    &-body{
+        background: #f3f3f3;
+        width: 100%;
+        min-height: 350px;
+        max-height: 600px;
+    }
+    &-title{
+        @include edit-header;
+    }
+    &-label{
+        @include edit-form-label
+    }
+}
+
+.commonEdit-BackButton{
+width: 77px;
+height: 35px;
+background: #F3F3F3;
+margin-left: auto;
+align-items: center;
+cursor: pointer;
+}
+
+.commonEdit-BackButton:hover{
+    background:$cancelhover;
+}

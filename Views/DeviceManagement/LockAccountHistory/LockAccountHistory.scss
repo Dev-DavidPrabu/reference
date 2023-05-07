@@ -1,0 +1,109 @@
+@import "../../../App.scss";
+
+.manageButton {
+  background-color: #39c570;
+  border-color: $backColour;
+  color: $white;
+  width: 25px;
+  height: 25px;
+  text-align: center;
+}
+.manageButtonUnlock {
+  background-color: $backColour;
+  border-color: $backColour;
+  color: black;
+  width: 25px;
+  height: 25px;
+  margin-left: 3px;
+  text-align: center;
+}
+.userLoginFilterSection {
+  background: #36393a;
+  min-height: 150px;
+  &-input {
+    width: 95%;
+    height: 25px;
+    font-size: 10px;
+    font-weight: bold;
+  }
+  &-filter {
+    background: gray;
+    width: 32px;
+    height: 25px;
+    font-size: 10px;
+  }
+  &-forword {
+    background: #867e7e;
+    width: 40px;
+    height: 30px;
+    font-size: 10px;
+  }
+}
+.titleFilterUser {
+  color: white !important;
+}
+.colorRedUser {
+  color: $Redbtn;
+  float: right;
+  font-size: 14px;
+  font-weight: 400;
+}
+.formRadiusUser {
+  border-radius: unset;
+}
+.inputFieldUser {
+  margin-left: 12px;
+}
+.buttonUser {
+  padding-top: 25px;
+}
+.nextBtnUserLogin {
+  border-radius: unset;
+  margin-right: 3rem;
+  width: 5rem;
+  background: $Redbtn;
+  border: none;
+  height: 2rem;
+  font-weight: bold;
+  padding: 0px;
+}
+
+.backBtnUserLogin {
+  border-radius: unset;
+  margin-right: 0rem;
+  width: 5rem;
+  color: $Greybtn;
+  border: none;
+  height: 2rem;
+  font-weight: bold;
+  padding: 0px;
+}
+.filterContentUser {
+  padding: 0px;
+}
+.filteredAreaUserLogin {
+  background-color: $backColour;
+  height: 50px;
+  margin: 0px;
+  padding: 5px;
+  margin-bottom: 20px;
+  align-items: center;
+}
+.conColorUserLogin {
+  background-color: $Greybtn;
+  height: 30px;
+  border-radius: 5px;
+  width: 250px;
+  align-items: center;
+}
+.closeIconUserLogin {
+  margin-top: -23px;
+  margin-left: -32px;
+  color: $Redbtn;
+  height: 1.5rem;
+  width: 1.5rem;
+}
+.paraTextUserLogin {
+  text-align: center;
+  margin-top: 5px;
+}

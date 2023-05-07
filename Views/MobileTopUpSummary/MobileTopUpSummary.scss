@@ -1,0 +1,55 @@
+@import "../../App.scss";
+
+.backbtnMobile {
+  width: 100%;
+  height: 35px;
+  background: $Greybtn;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  color: #000000;
+
+  float: right;
+  border-color: $Greybtn;
+}
+.backbtnMobile:hover {
+  background: $Greybtn;
+  border-color: $Greybtn;
+  color: #000000;
+}
+.btnPositionMob {
+  float: right;
+  margin-right: 0rem;
+}
+.formRadiusMobile {
+  border-radius: unset;
+  font-size: 14px;
+  height: 35px;
+  padding: 3px;
+  text-align: left;
+}
+.def_fontsizeMob {
+  font-size: 14px;
+}
+.textNew {
+  font-size: 9px;
+}
+.mobileCardRadius {
+  border-radius: 10px;
+  height: 120px;
+  background: #cfcfd0;
+  width: 90%;
+  cursor: pointer;
+}
+.filter_background {
+  background: #36393a;
+  min-height: 230px;
+}
+.font-text {
+  font-size: 14px;
+}
+.place_font {
+  font-size: 14px !important;
+}

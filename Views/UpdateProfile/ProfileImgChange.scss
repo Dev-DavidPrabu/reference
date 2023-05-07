@@ -1,0 +1,46 @@
+@import "../../App.scss";
+.upload-button{
+    width: 80px;
+}
+.img-background{
+    height: 119px;
+    width: 119px;
+    border: 1px solid #000;
+    border-radius: 10px;
+    background-color: #ffffff;
+}
+.image-container{
+    text-align: center;
+    margin: auto;
+}
+.upload-img{
+   width: 117px;
+   height: 117px;
+   border-radius: 10px;
+   position: relative;
+   z-index: 3;
+}
+.uploadSub-btn{
+    height: 40px;
+    width: 80px;
+    background-color: $Redbtn;
+    color: #ffffff;
+}
+.profile-icon{
+    display: flow-root;
+    font-size: 90px;
+    margin-top: -8rem;
+    color: rgb(107, 105, 105);
+    overflow: hidden;
+}
+.profile-label{
+font-family: 'Poppins',sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 18px;
+color: #000000;
+}
+.profile-box{
+font-size: 14px;
+}

@@ -1,0 +1,47 @@
+$textcolor: #000000;
+$fontFamilyForText:"Poppins", sans-serif;
+$bgcolor: #36393a;
+.langugae-parameters-add-view{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    .span-highlight-text{
+        font-family:$fontFamilyForText;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 38px;
+    color: $textcolor;
+    }
+}
+.language-add-header-content{
+    background: $bgcolor;
+    min-height: 4rem;
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    justify-content: space-around;
+    .form-group{
+        width: 13%;
+        label{
+            color: white;
+        }
+    input{
+        width: 100%;
+    }
+    button{
+        width: 100%;
+    }
+    .search{
+        width: 100%;
+        height: 40px!important
+
+    }
+    
+}
+}
+.languge-parameter-btn-left{
+    display: flex;
+    justify-content: end;
+}

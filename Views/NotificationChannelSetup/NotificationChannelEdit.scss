@@ -1,0 +1,55 @@
+@import "../../App.scss";
+
+.bg-clr {
+  background-color: $backColour;
+  margin: 19px 11px 0 20px;
+}
+.font-tittle {
+  font-size: 25px;
+  font-family: "Poppins", sans-serif;
+
+  font-weight: 500;
+}
+
+.draft-content {
+  color: $backColour;
+}
+.channel-edit {
+  &-input {
+    outline: none;
+    height: 30px;
+    width: 85%;
+  }
+  &-button {
+    background-color: $textGreen;
+    min-height: 35px;
+    width: 35px;
+  }
+  &-back {
+    background: $backColour;
+    border: 0;
+    font-size:$fontSizer
+  }
+}
+.editor {
+  &-background {
+    background-color: #ffffff;
+  }
+  &-multi {
+    background-color: $textGreen;
+    min-height: 20px;
+  }
+  &-multi:hover {
+    background-color: $textGreen;
+  }
+  &-content {
+    background-color: #ffffff;
+
+    min-height: 8rem;
+    overflow: hidden;
+    padding: 1%;
+  }
+  &-color {
+    color: #f44336;
+  }
+}

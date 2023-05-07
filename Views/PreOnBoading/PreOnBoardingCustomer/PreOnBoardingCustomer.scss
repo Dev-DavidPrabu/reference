@@ -1,0 +1,37 @@
+@import "../../../App.scss";
+
+
+
+.onBoarding-back {
+    width: 77px;
+    height: 35px;
+    margin-top: -2px;
+    float: right
+  }
+.onBoarding-customer{
+  &-header{
+    background-color: #363931;
+    font-weight: 700;
+    &-label{
+        color: $textGreen;
+    }
+    &-back{
+        color: $black;
+        font-weight: 500;
+        font-size: 10px;
+    }
+  
+    &-label{
+      font-weight: 500;
+      &-color {
+          color: $white;
+          font-weight: 500;
+        }
+  }
+}
+
+}
+.onBoarding-nobatch{
+    font-size: 18px;
+    font-weight: 500;
+}

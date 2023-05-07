@@ -1,0 +1,33 @@
+.WalletDowngrade {
+    background: #36393a;
+    height: auto;
+    &-input {
+      height: 40px;
+      font-size: 14px;
+      width: 100%;
+      background: #ffffff;
+      border: 1px solid #cfcfcf;
+    }
+  
+    &-filter {
+      background: gray;
+      width: 32px;
+      height: 25px;
+      font-size: 10px;
+    }
+    &-forword {
+      background: #867e7e;
+      width: 40px;
+      height: 30px;
+      font-size: 10px;
+    }
+    &-inputcode {
+      width: 55%;
+      padding: 5px;
+      font-size: 14px;
+    }
+    &-select-box {
+      font-size: 16px;
+      height: 40px;
+    }
+  }

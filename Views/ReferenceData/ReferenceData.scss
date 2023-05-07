@@ -1,0 +1,477 @@
+.Content {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 80%;
+  position: absolute;
+
+  background-color: white;
+  overflow-y: scroll;
+}
+
+.reference-heading {
+  display: inline;
+  margin-top: 20px;
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.reference-view {
+  display: flex;
+  flex-direction: row;
+  margin-top: 50px;
+}
+
+.options-view {
+  display: flex;
+  flex-direction: column;
+  margin-right: 15px;
+}
+.setting {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 50px;
+}
+.setting1 {
+  display: flex;
+  flex-direction: column;
+  font-size: 17px;
+  margin: 0 0px;
+}
+.setting1 input {
+  background-color: white;
+  width: 200px;
+  height: 30px;
+  margin-bottom: 10px;
+}
+.setting3 input {
+  background-color: white;
+  width: 200px;
+  height: 30px;
+  margin-bottom: 10px;
+}
+.span-col {
+  color: red;
+  font-size: 17px;
+}
+.span-col1 {
+  color: red;
+  font-size: 13px;
+}
+.setting2 {
+  display: flex;
+  flex-direction: column;
+  font-size: 14px;
+  background-color: #f3f3f3;
+  padding: 20px 20px 10px 20px;
+}
+.setting3 {
+  text-align: left;
+  margin: 20px 0px 20px 200px;
+}
+
+.setting5 {
+  margin: 40px 0px;
+}
+.setting6 {
+  display: flex;
+  flex-direction: row;
+  margin: 10px 0px;
+}
+.setting1010 {
+  margin-top: 10px;
+}
+.setting8 {
+  display: flex;
+  flex-direction: row;
+  margin: 0 50px;
+}
+.setting7 {
+  display: flex;
+  flex-direction: row;
+  margin: 20px 0 20px 0;
+}
+.edit-container {
+  display: flex;
+  flex-direction: column;
+  font-size: 17px;
+  /*margin: 0 50px;*/
+  margin-top: -50px;
+}
+.btn2 {
+  margin-right: 10px;
+  border-radius: 0;
+  padding: 5px 10px;
+}
+
+.btn3 {
+  border-radius: 2px;
+  height: 30px;
+  font-size: 14px;
+  margin-top: 10px;
+  background: #ffffff;
+}
+.sbtn {
+  padding: 10px;
+}
+.set-switch {
+  width: 300px;
+}
+.id-text {
+  text-align: center;
+}
+
+.custom_values {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 10px;
+}
+.custom-valuesEdit {
+  display: flex;
+  flex-direction: row;
+}
+
+.custom-valuesEdit label {
+  clear: both;
+  float: left;
+  margin-right: 50px;
+  width: 100px;
+  margin-bottom: 15px;
+}
+
+.custom-valuesEdit input {
+  margin-bottom: 10px;
+}
+
+.custom_values label {
+  clear: both;
+  float: left;
+
+  width: 200px;
+}
+
+.custom_values input {
+  width: 200px;
+  height: 20px;
+}
+.settingCus {
+  display: flex;
+  flex-direction: row;
+}
+.setting6 input {
+  border-radius: 0%;
+  width: 50%;
+  height: 35px;
+  font-size: 14px;
+}
+.customValue-label {
+  margin-bottom: 20px;
+  color: red;
+}
+.setting1010 input {
+  border-radius: 0%;
+  width: 50%;
+  height: 35px;
+  font-size: 14px;
+}
+
+.btnc {
+  border-radius: 50px;
+  height: 35px;
+  width: 35px;
+  color: white;
+  font-size: 14px;
+  margin-top: 15px;
+  background: #d32f2f;
+  border: solid #d32f2f 2px;
+  text-decoration: none;
+  margin-right: 20px;
+}
+.btnc:hover {
+  background: #f44336;
+}
+.new_btn {
+  height: 30px;
+  width: 50px;
+  background: white;
+  color: #1976d2;
+  border: 1px solid rgba(25, 118, 210, 0.5);
+  font-size: 14px;
+  border-radius: 5px;
+  text-decoration: none;
+  margin-right: 20px;
+}
+.new_btn:hover {
+  background: #f6fafd;
+  color: #1976d2;
+}
+.new_del {
+  height: 30px;
+  width: 80px;
+  background: white;
+  color: rgb(220, 0, 78);
+  border: 1px solid rgba(220, 0, 78, 0.5);
+  font-size: 14px;
+  border-radius: 5px;
+  text-decoration: none;
+  margin-right: 20px;
+}
+.new_del:hover {
+  background: #f6fafd;
+  color: rgb(220, 0, 78);
+}
+.back_button {
+  margin-bottom: 20px;
+}
+.Reference_textarea {
+  width: 50%;
+  border-radius: 0%;
+  font-size: 14px;
+}
+.referenceSearchContainer {
+  background-color: #36393a;
+}
+.reference-search {
+  margin: 0px 20px 20px 20px;
+  display: flex;
+}
+.reference-search label {
+  color: white;
+}
+.reference-search button {
+  margin: 0px;
+  padding: 1px 10px;
+}
+.referenceSearchContainer input {
+  width: 60%;
+  margin: 8px 35px 8px 15px;
+}
+.Create {
+  display: flex;
+  margin: 20px 0px 10px 20px;
+  width: 80%;
+}
+.Create-container {
+  width: 80%;
+}
+
+.createReference-label {
+  width: 200px;
+}
+.Edit {
+  display: flex;
+  margin: 20px 0px 10px 20px;
+  width: 80%;
+}
+.Edit-container {
+  width: 80%;
+}
+.View {
+  position: relative;
+}
+.viewBack-btn {
+  position: absolute;
+  right: 10px;
+  top: -60px;
+  display: flex;
+}
+.viewBack-btn button {
+  background-color: #36393a;
+  border-radius: 0px;
+}
+.manage-button {
+  background-color: #f3f3f3;
+  border-color: #f3f3f3;
+  color: black;
+  padding: 5px;
+}
+.manage-button:hover {
+  background-color: #f3f3f3;
+  border-color: #f3f3f3;
+  color: #d32f2f;
+}
+.referenceExport-container {
+  display: flex;
+  float: right;
+  margin: 10px 0px;
+}
+.referenceExport-button {
+  margin-left: 10px;
+  border-radius: 0;
+  padding: 5px 10px;
+  background-color: #f3f3f3;
+  border-color: #f3f3f3;
+  color: black;
+}
+.referenceExport-button:hover {
+  background-color: #cfcfcf;
+  border-color: #f3f3f3;
+  color: black;
+}
+.createCode-btn {
+  float: right;
+  margin-top: 5px;
+}
+.referenceSearch-btn {
+  margin: 0px 10px;
+}
+
+.fake {
+  height: 30px;
+  width: 42px;
+  position: relative;
+  background-color: #36393a;
+  bottom: 30px;
+  right: 62px;
+  float: right;
+}
+.validation-error {
+  border-color: red;
+  background-color: #e0b9b9;
+}
+
+.ant-switch {
+  margin: 0;
+  padding: 0;
+  color: rgba(0, 0, 0, 0.85);
+  font-size: 14px;
+  font-variant: tabular-nums;
+
+  list-style: none;
+  font-feature-settings: "tnum";
+  position: relative;
+  display: inline-block;
+  box-sizing: border-box;
+  min-width: 80px;
+  height: 30px;
+  line-height: 22px;
+  vertical-align: middle;
+  background-color: #e30613;
+  background-image: none;
+  border: 0;
+  border-radius: 0px;
+  cursor: pointer;
+  transition: all 0.2s;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.ant-switch:focus {
+  outline: 0;
+  box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.1);
+}
+.ant-switch-checked:focus {
+  box-shadow: none;
+}
+.ant-switch:focus:hover {
+  box-shadow: none;
+}
+.ant-switch-checked {
+  background-color: #39c570;
+}
+
+.ant-switch-inner {
+  display: block;
+  margin: 0 2px 0 43px;
+  color: #fff;
+  font-size: 14px;
+  transition: margin 0.2s;
+}
+.ant-switch-checked .ant-switch-inner {
+  margin: 0 43px 0 2px;
+}
+.ant-switch-handle {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 40px;
+  height: 30px;
+  transition: all 0.2s ease-in-out;
+}
+.ant-switch-handle::before {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: #fff;
+  border-radius: 0px;
+  box-shadow: 0 2px 4px 0 rgba(0, 35, 11, 0.2);
+  transition: all 0.2s ease-in-out;
+  content: "";
+}
+.ant-switch-checked .ant-switch-handle {
+  left: calc(100% - 40px - 0px);
+}
+
+.disable-background {
+  background-color: transparent;
+}
+.disable-background:hover {
+  background-color: transparent;
+}
+
+.viewBack-buttonNew {
+  background: #36393a;
+  height: 35px;
+  width: 35px;
+  padding: 0;
+}
+
+.exportRef-icons-disabled {
+  height: 35px;
+  width: 35px;
+  background: #36393a;
+  margin: auto;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  color: white;
+  pointer-events: none;
+}
+
+.Reference-DefaultButton {
+  background: #e30613;
+  padding: 5px 12px;
+  font-size: 14px;
+}
+.Reference-DefaultButton:hover {
+  background-color: #c2000b;
+}
+.css-1s2u09g-control {
+  border-radius: 0% !important;
+}
+.css-1pahdxg-control {
+  border-radius: 0% !important;
+  border-color: hsl(0, 0%, 80%) !important;
+  box-shadow: none !important;
+}
+.referenceData-readOnly {
+  background: #cfcfcf !important;
+  min-width: 150px;
+  border-radius: 0px;
+  height: 35px;
+  font-size: 14px;
+}
+.ReferenceData-uploadLabel {
+  padding-top: 2px;
+  padding-bottom: 2px;
+  border-radius: 0%;
+  height: 35px;
+  font-size: 14px;
+}
+.referenceData-cancelButton {
+  background-color: #cfcfcf;
+  color: black;
+  padding: 5px 12px;
+  border-color: transparent;
+  font-size: 14px;
+}
+.Reference-DefaultButton {
+  background: #e30613;
+  padding: 5px 12px;
+  font-size: 14px;
+}

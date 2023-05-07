@@ -1,0 +1,36 @@
+@import "../../App.scss";
+
+
+.customApproval{
+    font-size: 14px;
+    background-color: $Redbtn;
+    border: 0px;
+}
+.customApproval:hover{
+    background-color: $Redbtn;
+    border: 0px;
+}
+.reasonErrors{
+    font-size: 14px;
+    color: $Redbtn;
+}
+.actiondropdown{
+    font-size: 14px;
+}
+.customSubmit{
+    font-size: 14px;
+    background-color: $Redbtn;
+    border: 0px;
+    float: right;
+}
+.customSubmit:hover{
+    background-color: $Redbtn;
+    border: 0px;
+}
+.customCancel{
+    font-size: 14px;
+    background-color: $Greybtn;
+    border: 0px;
+    color: black;
+    justify-content:initial ;
+}

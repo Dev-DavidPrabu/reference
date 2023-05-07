@@ -1,0 +1,167 @@
+@import "../../App.scss";
+
+.add-company-title {
+  font-size: 25px;
+  font-weight: 700;
+}
+.add-company-wrapper {
+  background: rgb(243, 243, 243);
+
+  width: 100%;
+}
+.Cnt-btn {
+  margin-left: 43px;
+}
+.add-company-maintenance-form {
+  padding: 2rem 3rem 1rem 3rem;
+}
+.add-company-label-font-weight {
+  font-weight: 500;
+}
+.header-text {
+  font-weight: 500;
+  color: red;
+  margin-top: 30px;
+}
+.companyInput-height {
+  height: 10vh;
+}
+.AddressInput-height {
+  height: 8vh;
+}
+.next-btn {
+  border-radius: unset;
+  margin-right: 1rem;
+  width: 5rem;
+  background: #e30613;
+  border: none;
+  height: 2.5rem;
+  font-weight: bold;
+}
+.back-btn {
+  border-radius: unset;
+  margin-right: 1rem;
+  width: 5rem;
+  background: grey;
+  border: none;
+  height: 2.5rem;
+  font-weight: bold;
+}
+.colourchange {
+  background: #e30613;
+  margin-right: 2px;
+  border-radius: unset;
+  float: right;
+  width: 2.5rem;
+  height: 2.5rem;
+  font-weight: bold;
+  border: none;
+}
+.colourchangeNext {
+  background: #e30613;
+  margin-right: 2px;
+  border-radius: unset;
+  float: right;
+  width: 2.5rem;
+  height: 2.5rem;
+  font-weight: bold;
+  border: none;
+}
+.colourchangeDelete {
+  background: #e30613;
+  margin-right: 2px;
+  border-radius: unset;
+  float: right;
+  width: 2.5rem;
+  height: 2.5rem;
+  font-weight: bold;
+  border: none;
+}
+.text-highlighter {
+  background: black;
+  color: white;
+  width: 15%;
+  text-align: center;
+  min-height: 25px;
+  max-height: 35px;
+  font-size: 14px;
+}
+.Edit-btn {
+  background: black !important;
+}
+.edit-bold-line {
+  min-height: 1px;
+  max-height: 3px;
+  width: 10%;
+  background-color: black;
+}
+
+.bttm {
+  padding-left: 0px;
+}
+.bttm-arrow::after {
+  content: "";
+  position: absolute;
+  top: 35px;
+  left: calc(50% - 10px);
+  background: #141313;
+  width: 20px;
+  height: 10px;
+  -webkit-clip-path: polygon(0 0, 100% 0, 50% 100%);
+  clip-path: polygon(0 0, 100% 0, 50% 100%);
+}
+
+.payrollmaintance-btn-alignment {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 5px;
+}
+.record-tilt {
+  margin-bottom: 10px;
+}
+
+.edit {
+  display: flex;
+  justify-content: flex-start;
+  padding-bottom: 20px;
+}
+.saveButtonMaintenance {
+  background: $Redbtn;
+  width: 10%;
+  height: 30px;
+  font-weight: 500;
+  color: $backColour;
+  @include module-label;
+}
+.cancelButtonMaintenance {
+  background: $Greybtn;
+  border-radius: 0;
+  width: 10%;
+  font-weight: 500;
+}
+.backbtns {
+  background: #f3f3f3;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: #000000;
+}
+.backbtns:hover {
+  background: $cancelhover;
+}
+.checkboxLabel {
+  margin-left: 3rem;
+}
+.inputSizes {
+  margin-left: -5rem;
+}
+.selectComany {
+  margin-top: 8px;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  color: #000000;
+}
+.viewBtn:hover {
+  background: $submithover;
+}

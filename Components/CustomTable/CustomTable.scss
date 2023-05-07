@@ -1,0 +1,116 @@
+.notification-manage {
+  &-update {
+    background: #e30613;
+    height: 20px;
+    width: 60px;
+  }
+  &-cancel {
+    height: 20px;
+    width: 60px;
+  }
+}
+.customtable-manage {
+  &-view {
+    pointer-events: none;
+    opacity: 0.9;
+  }
+}
+.manageButton {
+  width: 25px;
+  height: 25px;
+  text-align: center;
+}
+.manageButton-disabled {
+  background-color: grey;
+  border-color: #f3f3f3;
+  color: #ffffff;
+  width: 25px;
+  height: 25px;
+  pointer-events: none;
+  text-align: center;
+}
+.manageButtonUnlock {
+  background-color: #f3f3f3;
+  border-color: #f3f3f3;
+  color: black;
+  width: 25px;
+  height: 25px;
+  margin-left: 3px;
+  text-align: center;
+}
+.deviceButton {
+  background-color: #fc3706;
+  border-color: #f3f3f3;
+  color: black;
+  width: 25px;
+  height: 25px;
+  margin-left: 3px;
+  text-align: center;
+}
+.manageButtonView {
+  background-color: #f3f3f3;
+  border-color: #f3f3f3;
+  color: black;
+  padding: 5px;
+}
+.manageButtonView:hover {
+  background-color: #f3f3f3;
+  border-color: #f3f3f3;
+  color: #d32f2f;
+}
+.ant-table-content {
+  background: #f3f3f3;
+}
+.usercheck {
+  font-size: 18px;
+  margin-left: 20px;
+}
+.usercheck:hover {
+  color: #39c570;
+}
+.table td {
+  border-bottom: 1px solid #cfcfcf;
+  border-top: 1px solid #cfcfcf;
+  border-collapse: collapse;
+}
+.ant-table table {
+  table-layout: fixed !important;
+}
+
+.ant-table-no-scroll {
+  background: #f3f3f3;
+  overflow-x: scroll;
+}
+.ant-table-no-scroll table {
+  table-layout: fixed !important;
+  min-width: 400% !important;
+}
+.ant-table-no-scroll-max {
+  background: #f3f3f3;
+  overflow-x: scroll;
+}
+.ant-table-no-scroll-max table {
+  table-layout: fixed !important;
+  min-width: 400% !important;
+}
+.ant-empty-img-simple-g {
+  stroke: black !important;
+}
+.ant-empty-description {
+  font: 300;
+  color: black;
+}
+
+.Total{
+ font-size: 14px;
+ font-weight: 500;
+}
+
+.ant-table-thead > tr > th, .ant-table-tbody > tr > td, .ant-table tfoot > tr > th, .ant-table tfoot > tr > td {
+  font-weight: 600;
+  background-color: #f5f5f5;
+}
+
+.customCol .ant-table-content table{
+  width: 100% !important
+}

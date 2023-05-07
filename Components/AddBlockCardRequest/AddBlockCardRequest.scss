@@ -1,0 +1,268 @@
+@import "../../App.scss";
+
+.block-card {
+  &-body {
+    background: $backColour;
+    width: 100%;
+    min-height: 350px;
+    max-height: 100%;
+  }
+  &-label {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    margin-left: -5px;
+    &-color {
+      color: $Redbtn;
+    }
+  }
+  &-inputCode {
+    outline: none;
+    height: 35px;
+    font-size: 14px;
+    width: 33%;
+    border-radius: 0px;
+  }
+  &-inputCode:disabled {
+    background-color: $Greybtn;
+  }
+  &-inputMobile {
+    outline: none;
+    height: 35px;
+    width: 65%;
+    font-size: 14px;
+    border-radius: 0px;
+  }
+  &-inputMobile[readonly] {
+    background-color: $Greybtn;
+  }
+  &-inputType {
+    outline: none;
+    height: 35px;
+    width: 9rem;
+    border-radius: 0px;
+  }
+  &-inputType[readonly] {
+    background-color: $Greybtn;
+  }
+  &-inputTypeForm {
+    outline: none;
+    height: 35px;
+    width: 6rem;
+    border-radius: 0px;
+  }
+  &-inputTypeForm[readonly] {
+    background-color: $Greybtn;
+  }
+  &-formColor {
+    background: $formColor;
+    height: 6rem;
+    margin: 0rem;
+  }
+  &-formColorForm {
+    background: $formColor;
+    height: 50px;
+    margin: 0rem;
+    text-align: center;
+  }
+  &-title {
+    @include edit-header;
+  }
+  &-back {
+    width: 77px;
+    height: 35px;
+  }
+}
+.btnVerify {
+  background-color: $Redbtn;
+  height: 34px;
+}
+.btnVerify:hover {
+  background-color: $submithover !important;
+}
+.textFieldColor {
+  background-color: $noteBackground;
+
+  max-height: 55px;
+}
+.disablebutton {
+  background: rgb(218, 135, 135) !important;
+  width: 80px;
+  height: 30px;
+  font-weight: 500;
+  font-family: "Roboto", sans-serif;
+  color: white;
+  @include module-label;
+}
+.selfieBtn {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: $white;
+  width: 5rem;
+  height: 35px;
+  background: $textGreen;
+  border-color: $textGreen;
+}
+.selfieBtn:hover {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: $white;
+  width: 5rem;
+  height: 35px;
+  background: $textGreen;
+  border-color: $textGreen;
+}
+
+.addBlockCard-modal-content {
+  position: absolute;
+  padding: 10px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: auto;
+  width: 700px;
+  background: #ffffff;
+  border-radius: 0;
+  border: 1px solid #cfcfcf;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  z-index: 9999;
+
+  .model_hr {
+    width: 700px;
+    height: 1px;
+    background: #cfcfcf;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    margin-left: -11px !important;
+  }
+
+  .flex-container {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+    margin-bottom: 25px;
+  }
+  .input_container {
+    width: 200px;
+    height: 20px;
+  }
+  .success_btn {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 75px;
+    height: 35px;
+    background: #39c570;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    /* identical to box height */
+
+    color: #ffffff;
+  }
+  .btn_cancel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    width: 50px;
+    height: 35px;
+    background: #e30613;
+    color: #ffffff;
+    border: none !important;
+    outline: none !important;
+    cursor: pointer;
+  }
+  .addBlockCard-modal-title {
+    display: flex;
+    justify-content: space-between;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 38px;
+    color: #000000;
+    margin-top: 10px;
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+  .model_body {
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+  .customer_details_pop {
+    margin-bottom: 5px;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #000000;
+  }
+  .selfie_image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Poppins", sans-serif;
+    gap: 5px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    width: 75px;
+    height: 35px;
+    background: #39c570;
+    color: #ffffff;
+    margin-top: 25px;
+  }
+  .cus_info_pop {
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #a4d3ed;
+    margin: 0 auto;
+    width: 100% !important;
+    margin-bottom: 10px;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+  }
+  input {
+    width: 200px;
+  }
+  .btn-danger {
+    background-color: $Redbtn;
+  }
+}
+
+.modal-backdrop {
+  background-color: none !important;
+}
+.image_popup {
+  width: 100%;
+  justify-content: center;
+  display: flex;
+}
+.SelfieUnblockImageADD {
+  height: 200px;
+  width: 50%;
+}
+.popUp_img {
+  width: 100%;
+  height: 100%;
+}

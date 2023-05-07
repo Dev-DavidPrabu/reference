@@ -1,0 +1,21 @@
+@import "../../App.scss";
+
+.redWord{    color: $Redbtn;    font-size: 20px;    margin-bottom:40px;    margin-top: 50px;}
+.redWordText{
+    color: $Redbtn;    
+    font-size: 20px;    
+    margin-bottom:0px;    
+    margin-top: 50px;
+}
+.backBtnTable{
+    background-color: $backColour;
+    float: right;
+    border-color: $backColour;
+}
+.searchBtnAccount{
+    background-color: $Redbtn;    
+    border-color: $Redbtn;
+}
+.filteralign{
+    margin-left: 10px;
+}

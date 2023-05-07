@@ -1,0 +1,46 @@
+.api-message {
+  background: #39c570;
+  &:hover {
+    background: #24ac59;
+  }
+  height: 40px;
+  width: 100%;
+  font-weight: 700;
+}
+.api-message-error {
+  background: #fc5a5a;
+  height: 35px;
+  width: 100%;
+  font-weight: 700;
+}
+.api-hover:hover {
+  cursor: pointer;
+}
+.apimessagecolor {
+  margin-top: 10px;
+  height: 35px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 21px;
+  color: #ffffff;
+}
+.close-apiResponse {
+  height: 20px;
+  width: 20px;
+  font-size: 20px;
+  margin-top: 10px !important;
+  background: #ffffff;
+  color: #39c570;
+  border-radius: 50%;
+}
+.close-errorResponse {
+  height: 20px;
+  width: 20px;
+  font-size: 20px;
+  margin-top: 10px !important;
+  background: #ffffff;
+  color: #fc5a5a;
+  border-radius: 50%;
+}

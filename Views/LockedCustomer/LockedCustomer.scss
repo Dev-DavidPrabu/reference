@@ -1,0 +1,88 @@
+@import "../../App.scss";
+
+.lockFilterSection {
+  background: #36393a;
+  min-height: 150px;
+  &-input {
+    width: 95%;
+    height: 25px;
+    font-size: 10px;
+    font-weight: bold;
+  }
+  &-filter {
+    background: gray;
+    width: 32px;
+    height: 25px;
+    font-size: 10px;
+  }
+  &-forword {
+    background: #867e7e;
+    width: 40px;
+    height: 30px;
+    font-size: 10px;
+  }
+  &-search {
+    background-color: $Redbtn;
+  }
+  &-search:hover {
+    background: #bb212a;
+  }
+}
+.titleFilter {
+  color: white !important;
+
+  font-size: 16px;
+}
+.colorRedLock {
+  color: $Redbtn;
+  float: right;
+  font-size: 14px;
+  font-weight: 400;
+}
+.branchSetupTitleLocked {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  color: #ffffff;
+}
+
+.inputFieldLock {
+  margin-left: 12px;
+}
+.widthfield {
+  width: 300px;
+}
+.filterContent {
+  padding: 0px;
+}
+.filteredAreaLock {
+  background-color: $backColour;
+  height: 50px;
+  margin: 0px;
+  padding: 5px;
+  margin-bottom: 20px;
+  align-items: center;
+}
+.conColorLock {
+  background-color: $Greybtn;
+  height: 30px;
+  border-radius: 5px;
+  width: 250px;
+  align-items: center;
+}
+.closeIconLock {
+  margin-top: -23px;
+  margin-left: -32px;
+  color: $Redbtn;
+  height: 1.5rem;
+  width: 1.5rem;
+}
+.paraTextLock {
+  text-align: center;
+  margin-top: 5px;
+}
+.Functionuser-search-drop {
+  height: 40px;
+  font-size: 14px;
+}

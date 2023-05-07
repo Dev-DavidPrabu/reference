@@ -1,0 +1,66 @@
+@import "../../App.scss";
+
+
+.notification-setup{
+    &-body{
+        background: #f3f3f3;
+        width: 60%;
+        min-height: 350px;
+        max-height: 500px;
+    }
+    &-headerAlign{
+        width: 60%;
+    }
+    &-back{
+        background: $backColour;
+        border: 0;
+        font-size: 14px;
+    }
+    &-title{
+        @include edit-header;
+    }
+    &-label{
+        @include edit-form-label;
+        &-color{
+            color: $Redbtn;
+        }
+    }
+    &-input{
+        outline: none;
+        height: 30px;
+        width: 90%;
+        font-size: 14px;
+        &-value{
+            width: 60%;
+        }
+    }
+    &-textarea{
+        width: 90%;
+        font-size: 14px;
+    }
+    &-message{
+        color: $Redbtn;
+        @include edit-form-label;
+    }
+    &-save {
+        background: $Redbtn;
+        width: 80px;
+        height: 30px;
+        font-weight: 500;
+        @include module-label;
+      }
+      &-cancel {
+        background: $Greybtn;
+        height: 30px;
+        width: 80px;
+        font-weight: 500;
+        @include module-label;
+      }
+      &-viewbutton {
+        background: $Redbtn;
+        width: 35px;
+        height: 35px;
+        font-weight: 500;
+        @include module-label;
+      }
+}

@@ -1,0 +1,68 @@
+@import "../../App.scss";
+.add-terminal-title {
+  font-size: 24px;
+  font-weight: 700;
+}
+.add-terminal-wrapper {
+  background: rgb(243, 243, 243);
+  width: 100%;
+}
+.Cnt-btn {
+  margin-left: -12px;
+}
+.add-terminal-maintenance-form {
+  padding: 2rem 3rem 1rem 3rem;
+}
+
+.title {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 37px;
+  color: $black;
+}
+.cancelButtonTerminal {
+  background: $Greybtn;
+  height: 30px;
+  width: 80px;
+}
+.label-text {
+  font-size: 14px;
+}
+.button-sub-can {
+  margin-left: 3rem;
+}
+.mandatory-fields {
+  color: $Redbtn;
+  text-align: end;
+  margin-top: 1rem !important;
+}
+.deviceInput {
+  width: 120%;
+}
+.searchIconTerminal {
+  width: 35px;
+  height: 35px;
+  margin-left: 30px;
+  background: $textGreen;
+  color: $white;
+  border-radius: 3px;
+  padding-left: 12px;
+  padding-top: 7px;
+  cursor: pointer;
+}
+.backTerminal {
+  background-color: $backColour;
+  color: $black;
+  border-color: $backColour;
+  font-size: 14px;
+}
+.saveButtonTerminal {
+  background: $Redbtn;
+  width: 80px;
+  height: 30px;
+  font-weight: 500;
+  color: white;
+  @include module-label;
+}

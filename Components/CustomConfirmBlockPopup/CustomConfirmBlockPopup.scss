@@ -1,0 +1,61 @@
+@import "../../App.scss";
+
+.textFieldColor {
+  background-color: $noteBackground;
+
+  margin-left: 10px;
+  max-height: 55px;
+}
+.closeIconsBlock {
+  float: left;
+  margin-left: 40rem;
+  margin-top: -3rem;
+}
+.modelBody {
+  max-width: 50%;
+}
+.frontEyePopup {
+  width: 75px;
+  height: 35px;
+  background: $textGreen;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  align-items: center;
+  color: $white;
+  text-align: center;
+  padding: 8px;
+}
+.eyeiconleftPopup {
+  margin-left: 5px;
+  margin-top: 3px;
+}
+.yesBtn {
+  background: $textGreen;
+  border: none;
+  width: 75px;
+}
+.noBtn {
+  background: $Redbtn;
+  border: none;
+  width: 50px;
+}
+.btnPosition {
+  margin-left: 4px;
+}
+.textBlock {
+  font-size: 30px;
+  font-weight: 500;
+}
+.block-card-view {
+  &-inputMobilePopup {
+    outline: none;
+    height: 35px;
+    width: 100%;
+    border-radius: 0px;
+  }
+  &-inputMobilePopup[readonly] {
+    background-color: $Greybtn;
+  }
+}

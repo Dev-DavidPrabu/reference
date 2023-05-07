@@ -1,0 +1,55 @@
+.current-page {
+  &-payout {
+    background: #f3f3f3;
+    width: 25%;
+    font-size: 14px;
+    font-weight: 400;
+  }
+  &-bank {
+    background: #f3f3f3;
+    width: 60px;
+    height: 35px;
+    font-size: 14px;
+    font-weight: 400;
+  }
+  &-branch {
+    background: #f3f3f3;
+    width: 70px;
+    height: 35px;
+    font-size: 14px;
+    font-weight: 400;
+  }
+  &-agent {
+    background: #f3f3f3;
+    width: 25%;
+
+    font-size: 14px;
+    font-weight: 400;
+  }
+  &-customer {
+    background: #f3f3f3;
+    min-width: 90%;
+
+    font-size: 14px;
+    font-weight: 400;
+  }
+}
+
+.custom-page-arrow {
+  position: relative;
+  background: #e30613 !important;
+}
+
+.custom-page-arrow::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: calc(50% - 10px);
+  background: #e30613;
+  width: 15px;
+  height: 10px;
+  clip-path: polygon(0 0, 100% 0, 50% 100%);
+}
+.customerAlign {
+  width: 74%;
+}

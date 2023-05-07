@@ -1,0 +1,252 @@
+@import "../../App.scss";
+.header-detail {
+  margin: 10px 10px 10px 10px;
+  background: grey;
+  &-container {
+    width: 20%;
+    height: 20px;
+    background: grey;
+  }
+  &-user {
+    background: #e30613;
+
+    height: 35px;
+    font-size: 14px;
+    font-weight: 700;
+  }
+  &-right {
+    background: #f3f3f3;
+    width: 100px;
+    height: 35px;
+    font-size: 14px;
+    font-weight: 700;
+  }
+  &-filter {
+    background: #36393a;
+    width: 100px;
+    height: 30px;
+    font-size: 10px;
+    outline: none;
+    box-shadow: none;
+  }
+  &-search {
+    background: #36393a;
+    width: 100px;
+    height: 30px;
+    font-size: 10px;
+  }
+  &-export {
+    height: 40px;
+    border-radius: 0;
+    font-weight: 700;
+    padding: 10px 10px;
+    background: #36393a;
+  }
+  &-add {
+    background: #e30613;
+    width: 60%;
+    height: 40px;
+    border-radius: 0;
+    font-weight: 700;
+    padding: 10px 10px;
+  }
+}
+
+.user-column {
+  width: 20px;
+}
+.user-filter-section {
+  background: #36393a;
+  height: 130px;
+  &-input {
+    width: 95%;
+    height: 25px;
+    font-size: 10px;
+    font-weight: bold;
+  }
+  &-filter {
+    background: #e30613;
+    width: 40px;
+    height: 30px;
+    font-size: 10px;
+  }
+  &-forword {
+    background: #867e7e;
+    width: 40px;
+    height: 30px;
+    font-size: 10px;
+  }
+}
+.download-detail {
+  &-export {
+    background: #f3f3f3;
+    width: 100px;
+    height: 20px;
+    font-size: 10px;
+  }
+  &-print {
+    background: #f3f3f3;
+    height: 20px;
+    font-size: 10px;
+  }
+  &-edit-button {
+    background-color: #f3f3f3;
+    border-color: #f3f3f3;
+    color: black;
+  }
+  &-edit-button:hover {
+    background-color: #f3f3f3;
+    border-color: #f3f3f3;
+    color: #cfcfcf;
+  }
+}
+.approve-container {
+  background: #f3f3f3;
+  &-drop {
+    height: 30px;
+    width: 40%;
+    font-size: 10px;
+  }
+  &-comment {
+    height: 30px;
+    width: 70%;
+    font-size: 10px;
+  }
+  &-submit {
+    background: #e30613 !important;
+    width: 100px;
+    height: 30px;
+    font-size: 14px;
+    font-weight: 700;
+    border-radius: 0;
+  }
+  &-cancel {
+    background: #ffffff;
+    width: 100px;
+    height: 30px;
+    font-size: 14px;
+    font-weight: 700;
+    border-radius: 0;
+  }
+}
+.search-filter-btn {
+  margin: 0px 10px;
+  background: #36393a;
+}
+.user-button {
+  margin-right: 10px;
+  border-radius: 0;
+  padding: 5px 10px;
+}
+.user-search {
+  background: #36393a;
+  min-height: 4rem;
+  max-height: 4rem;
+  align-items: center;
+  display: flex;
+  padding: 0 3rem 0 3rem;
+  width: 100%;
+  gap: 10px;
+
+  &-drop {
+    height: 40px;
+    font-size: 14px;
+  }
+
+  &-filter {
+    background: #e30613;
+    height: 40px;
+  }
+  &-back {
+    background: #867e7e;
+    height: 38px;
+    font-size: 10px;
+  }
+  &-button {
+    background-color: $Redbtn;
+  }
+  &-button:hover {
+    background: #bb212a;
+  }
+}
+
+.user-bottom-arrow {
+  position: relative;
+}
+
+.user-bottom-arrow::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: calc(50% - 10px);
+  background: #e30613;
+  width: 20px;
+  height: 10px;
+  clip-path: polygon(0 0, 100% 0, 50% 100%);
+}
+
+.common-icon {
+  height: 45px;
+  min-width: 50px;
+  background: hsl(195, 4%, 22%);
+  margin: unset;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  color: white;
+}
+.common-icon-disabled {
+  height: 45px;
+  min-width: 50px;
+  background: hsl(195, 4%, 22%);
+  margin: auto;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  color: white;
+  pointer-events: none;
+}
+.mar-left-2 {
+  margin-left: 2rem;
+}
+.fs-14 {
+  font-size: 14px;
+}
+.add-btn-user {
+  height: 45px;
+  min-width: 130px;
+  font-weight: 700;
+  background-color: $Redbtn;
+}
+.search {
+  width: 60%;
+}
+
+.cursor {
+  cursor: pointer;
+}
+.textFormInput {
+  width: 50%;
+}
+.buttonPosition {
+  margin-top: -4rem;
+}
+.colorWhite {
+  color: white !important;
+}
+.btnfilter {
+  padding: 0px 90px;
+}
+.row {
+  flex-wrap: unset;
+}
+.label-white-color {
+  color: white !important;
+}
+.add-btn-user:hover {
+  background: $submithover;
+}

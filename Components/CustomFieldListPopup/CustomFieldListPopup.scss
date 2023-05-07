@@ -1,0 +1,71 @@
+@import "../../App.scss";
+
+.listModalPop {
+  &-wrapper {
+    display: flex;
+    align-items: left;
+    flex-direction: column;
+  }
+  &-head {
+    padding: 2rem 1rem 2rem 1rem;
+    font-weight: 500;
+    font-size: 25px;
+  }
+  &-hr {
+    color: $black;
+  }
+  &-title {
+    font-weight: 400;
+    font-size: 25px;
+    color: $backColour;
+  }
+  &-buttons {
+    display: flex;
+    padding: 1px 0px 3rem;
+  }
+  &-confirm-buttons {
+    margin-right: 1rem;
+    background-color: $Redbtn;
+    border-color: $Redbtn;
+    width: 20%;
+  }
+  &-cancel-buttons {
+    margin-right: 1rem;
+    background-color: $Greybtn;
+    border-color: $Greybtn;
+    color: $black;
+    width: 20%;
+  }
+  &-buttonPosition {
+    justify-content: center;
+  }
+  &-label {
+    @include edit-form-label;
+    margin: 12px;
+    margin-left: 0rem;
+    &-color {
+      color: $Redbtn;
+    }
+  }
+}
+
+.formPopup {
+  border-radius: unset;
+  width: 100%;
+  margin: 10px auto auto auto;
+}
+.bodyColorFooter {
+  background-color: #363931;
+  justify-content: center;
+}
+.modalPosition {
+  border-radius: 0rem;
+}
+.closeIconFieldList {
+  margin-top: -55px;
+  color: $white;
+  height: 1.5rem;
+  width: 1.5rem;
+  float: right;
+  margin-left: 22rem;
+}

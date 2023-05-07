@@ -1,0 +1,95 @@
+@import "../../App.scss";
+
+.loginbg {
+  background-color: $Redbtn;
+  color: white;
+}
+.loginclr {
+  color: #00a3ff !important;
+}
+.text-white {
+  text-align: center;
+  background: transparent;
+}
+.input-group-prepend {
+  display: flex;
+  align-items: center;
+  padding: 0.675rem 0.75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  text-align: center;
+  white-space: nowrap;
+  background-color: #e9ecef;
+  border: 1px solid #ced4da;
+}
+.btn {
+  border-radius: 0 !important;
+}
+.input-group {
+  flex-wrap: nowrap;
+  margin-top: 12px;
+  width: 90%;
+}
+.li-bg {
+  background-color: #80808061;
+}
+
+.login-error {
+  background-color: $Redbtn;
+  @include submit-label;
+}
+
+.buttonwt {
+  width: 90%;
+  .btn-ht {
+    height: 40px;
+  }
+  .btn-ht:hover {
+    color: rgb(177, 174, 174) !important;
+  }
+}
+.login-header {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 25px;
+}
+.text-danger {
+  color: #e30613 !important;
+  font-size: 14px;
+  font-family: "Poppins", sans-serif;
+  margin-top: 8px;
+  margin-bottom: 12px;
+  font-weight: 500;
+}
+.forgot-btn {
+  margin-left: -15px;
+}
+.login-button {
+  margin-right: 35px !important;
+  @include module-label;
+}
+.login-usermail {
+  @include login-input;
+}
+.forgot-submit {
+  background: $Redbtn;
+  width: 80px;
+  height: 30px;
+  font-weight: 500;
+  font-family: "Roboto", sans-serif;
+  color: white;
+  @include module-label;
+}
+.forgot-submit:hover {
+  background: $submithover;
+}
+.forgot-text {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  white-space: nowrap;
+}

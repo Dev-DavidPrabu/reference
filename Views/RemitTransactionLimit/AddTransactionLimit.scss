@@ -1,0 +1,52 @@
+@import '../../App.scss';
+
+.transLimitHeading{
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    color: #000000;
+    }
+    .transLimitLabel{
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    color: $black;
+    }
+    .transLimitInputBox{
+    height: 35px;
+    margin-top: 5px;
+    background: $white;
+    border: 1px solid $Greybtn;
+    box-sizing: border-box;
+    font-size: 14px;
+    width: 100%;
+    }
+    .transLimitButtonDiv{
+        margin-left: 25px;
+    }
+    .remitTransLimitFieldArea{
+        margin-top: -3rem;
+        background: $backColour;
+        height: 100% !important;
+    } 
+    .form-control[readonly]{
+        background-color: $Greybtn;
+    }
+    .add-limit-wrapper {
+        background: rgb(243, 243, 243);
+        width: 100%;
+      }
+      .add-limit-form {
+        padding: 0rem 1rem 3rem 1rem;
+      }
+      .btnPosition{
+          float: right;
+          background:$Redbtn ;
+          border-color: $Redbtn;
+      }
+      .btnPosition:hover{
+          background: $submithover;
+          border-color: $submithover;
+      }

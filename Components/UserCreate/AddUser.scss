@@ -1,0 +1,101 @@
+@import "../../App.scss";
+
+.container-user {
+  margin: 10px 10px 10px 10px;
+  &-header {
+    font-size: 22px;
+  }
+  &-background{
+    min-width: 60%;
+  }
+  &-body {
+    background: #f3f3f3;
+    width: 60%;
+    &-label {
+      width: 30%;
+      height: 20px;
+      font-size: 14px;
+      &-color {
+        color: #f44336;
+      }
+    }
+    &-input {
+      width: 55%;
+      height: 30px;
+      font-size: 14px;
+      font-weight: bold;
+      &-group{
+        width: 75%;
+      height: 30px;
+      font-size: 14px;
+      font-weight: bold;
+      }
+      &-comment {
+        width: 55%;
+        height: 80px;
+        font-size: 10px;
+      }
+      &-mobile {
+        width: 43%;
+        height: 30px;
+        font-size: 14px;
+        font-weight: bold;
+      }
+      &-country {
+        width: 30%;
+        height: 30px;
+        font-size: 14px;
+      }
+    }
+  }
+}
+.user-mobile{
+  &-label{
+    width: 35%;
+    height: 20px;
+    font-size: 14px;
+    &-color {
+      color: #f44336;
+    }
+  }
+  &-status{
+    width: 25%;
+    height: 20px;
+    font-size: 14px;
+  }
+
+}
+.error-text-red {
+  color: #f52b07;
+  font-size: 10px;
+}
+.save-button {
+  background: #f44336;
+  border-radius: 0;
+  width: 15%;
+  font-weight: 500;
+}
+.cancel-button {
+  background: lightgrey;
+  border-radius: 0;
+  width: 15%;
+  font-weight: 500;
+}
+.card-backgound{
+  background: #F3F3F3;
+  padding: 19px;
+}
+.lastStatusSize{
+  width: 50%;
+}
+.submit-disabled{
+    background-color: #9d9d9d !important;
+    width: 80px;
+    height: 30px;
+    font-weight: 500;
+    font-family: "Roboto", sans-serif;
+    color: white;
+  @include module-label;
+
+  }
+ 

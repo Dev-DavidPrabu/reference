@@ -1,0 +1,36 @@
+@import "../../App.scss";
+
+
+.remit-bank{
+    &-body{
+        background: #f3f3f3;
+        width: 75%;
+        min-height: 350px;
+        max-height: 500px;
+    }
+    &-back{
+        width: 77px;
+        height: 35px;
+    }
+    &-title{
+        @include edit-header;
+    }
+    &-label{
+        @include edit-form-label;
+    }
+    &-input{
+        outline: none;
+        height: 30px;
+        width: 90%;
+        &-value{
+            width: 60%;
+        }
+    }
+      &-viewbutton {
+        background: #E30613;
+        width: 35px;
+        height: 35px;
+        font-weight: 500;
+        @include module-label;
+      }
+}

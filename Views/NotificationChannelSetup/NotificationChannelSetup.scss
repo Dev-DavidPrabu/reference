@@ -1,0 +1,12 @@
+
+@import '../../App.scss';
+
+
+.notification-channel{
+    &-message{
+        color: $Redbtn;
+    }
+    &-view{
+      color: $textblue;
+    }
+}

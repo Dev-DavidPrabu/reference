@@ -1,0 +1,49 @@
+@import "../../App.scss";
+
+.searchBtnTerminal {
+  background-color: $Redbtn;
+  border-color: $Redbtn;
+  color: $white;
+}
+.filterareaTerminal {
+  margin-left: -3rem;
+}
+.textboxsTerminal {
+  margin-top: -1rem;
+}
+.buttonboxTerminal {
+  margin-top: 10px;
+}
+.userIcon-size {
+  font-size: 20px;
+}
+.pendingColor {
+  color: rgb(238, 106, 17);
+}
+.fieldMandatory {
+  margin-top: -30px;
+}
+.disableColor {
+  color: rgb(160, 160, 160);
+}
+.Dashboardfilter {
+  background: #36393a;
+  min-height: 180px;
+}
+.nextBtnDashboard {
+  border-radius: unset;
+  margin-right: 1rem;
+  width: 5rem;
+  background: #e30613;
+  border: none;
+  height: 2rem;
+  font-size: 14px;
+  font-weight: bold;
+  margin-top: 3rem;
+  float: right;
+  color:#fff !important;
+  padding: 0px;
+}
+.cancel-btn{
+  background: #cfcfcf !important;
+}

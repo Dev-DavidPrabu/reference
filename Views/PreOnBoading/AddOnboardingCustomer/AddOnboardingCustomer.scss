@@ -1,0 +1,67 @@
+
+@import "../../../App.scss";
+
+.add-customer{
+
+    &-title{
+    @include HeadingTwo;
+    }
+    &-label{
+     @include add-cutomer-form-label;
+    }
+    &-mandatory{
+        color: $Redbtn;
+    }
+    &-error{
+        color: $Redbtn;
+    }
+    &-placeholder{
+        font-family: "Poppins",sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+    }
+    &-background{
+        background-color: $backColour;
+    }
+    &-border{
+        border:1px solid $backgroundDark;
+    }
+    &-checkbox{
+        width: 20px;
+        height: 20px;
+    }
+    &-switch{
+        border-radius: 10px;
+    }
+    &-save{
+        background: $Redbtn;
+        width: 80px;
+        height: 30px;
+        font-weight: 500;
+        font-family: 'Roboto',sans-serif;
+        color: white;
+        @include module-label;
+    }
+    &-save:hover{
+        background: $submithover;
+    }
+    &-cancel {
+        background: $Greybtn;
+        height: 30px;
+        width: 80px;
+        font-family: 'Roboto',sans-serif;
+        font-size: 14px;
+        font-weight: 500;
+        color:$black;
+        @include module-label;
+    }
+    &-cancel:hover{
+        background:$cancelhover;
+        color:$black;
+    }
+}
+.mobileCode{
+    margin-top: -5px;
+}

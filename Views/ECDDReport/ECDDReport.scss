@@ -1,0 +1,75 @@
+.ECDDReport {
+  background: #36393a;
+  min-height: 190px;
+  &-input {
+    width: 100%;
+    height: 40px;
+    background: #ffffff;
+    border: 1px solid #cfcfcf;
+    font-size: 16px;
+  }
+  &-filter {
+    background: gray;
+    width: 32px;
+    height: 25px;
+    font-size: 10px;
+  }
+  &-forword {
+    background: #867e7e;
+    width: 40px;
+    height: 30px;
+    font-size: 10px;
+  }
+  &-inputcode {
+    width: 55%;
+    padding: 5px;
+    font-size: 16px;
+  }
+  &-select-box {
+    font-size: 16px;
+    height: 40px;
+  }
+}
+.colorRed {
+  color: #e30613;
+  float: right;
+  font-size: 14px;
+  font-weight: 400;
+}
+.filterInputAlign {
+  margin-top: -20px;
+}
+.generateBtn {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: #ffffff;
+  width: 135px;
+  height: 35px;
+  background: #39c570;
+  &:hover {
+    background: #24ac59;
+  }
+}
+.generate-btn-div {
+  float: right;
+}
+
+.ecddReport-label {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16px;
+  margin-left: -11px;
+}
+
+.EcddReport-input {
+  text-align: left;
+  padding: 0px;
+  height: 45px;
+}
+
+.ant-picker-input::placeholder {
+  color: #000 !important;
+}

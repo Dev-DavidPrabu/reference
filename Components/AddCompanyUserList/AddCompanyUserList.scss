@@ -1,0 +1,141 @@
+@import '../../App.scss';
+
+.container-group {
+    margin: 10px 10px 10px 10px;
+    width: 90%;
+    min-height: 100%;
+    &-header {
+      font-size: 22px;
+      &-add{
+        height: 35px;
+        width: 40%;
+        font-weight: 500;
+      }
+      &-back{
+        background: $backColour;
+        border: 0;
+        height: 35px;
+      }
+    }
+    &-body {
+      background: #f3f3f3;
+      width: 70%;
+      &-label {
+        width: 30%;
+        height: 20px;
+        font-size: 14px;
+        &-color {
+          color: #f44336;
+        }
+      }
+      &-input {
+        width: 75%;
+        height: 30px;
+        font-size: 14px;
+        font-weight: bold;
+        &-login{
+            width: 50%;
+            height: 30px;
+            font-size: 14px;
+            font-weight: bold; 
+        }
+        &-comment {
+          width: 95%;
+          height: 80px;
+          font-size: 14px;
+          font-weight: bold;
+        }
+        &-mobile {
+          width: 43%;
+          height: 30px;
+          font-size: 14px;
+          font-weight: bold;
+        }
+        &-country {
+          width: 12%;
+          height: 30px;
+          font-size: 14px;
+        }
+      }
+    }
+    &-get-button {
+        background: $Redbtn;
+        border-radius: 0;
+        width: 25%;
+        height: 30px;
+        font-weight: 500;
+        color: white;
+        font-size: 10px;
+      }
+  }
+
+
+
+.back-office{
+    &-body{
+        background: $backColour;
+        width: 75%;
+        min-height: 350px;
+        max-height: 500px;
+    }
+    &-back{
+        width: 77px;
+        height: 35px;
+    }
+    &-title{
+        @include edit-header;
+    }
+    &-label{
+        @include edit-form-label;
+        &-color{
+            color: $Redbtn;
+        }
+    }
+    &-input{
+        outline: none;
+        height: 30px;
+        width: 90%;
+        &-value{
+            width: 60%;
+        }
+    }
+    &-textarea{
+        width: 90%;  
+    }
+    &-message{
+        color: $Redbtn;
+        @include edit-form-label;
+    }
+    &-save {
+        background: $Redbtn;
+        width: 80px;
+        height: 30px;
+        font-weight: 500;
+        @include module-label;
+      }
+      &-cancel {
+        background: $Greybtn;
+        height: 30px;
+        width: 80px;
+        font-weight: 500;
+        @include module-label;
+      }
+      &-viewbutton {
+        background: $Redbtn;
+        width: 35px;
+        height: 35px;
+        font-weight: 500;
+        @include module-label;
+      }
+}
+.iconDiv{
+    margin: -16px;
+}
+.save-button {
+  background: $Redbtn;
+  width: 80px;
+  height: 30px;
+  font-weight: 500;
+  color: white;
+  @include module-label;
+}

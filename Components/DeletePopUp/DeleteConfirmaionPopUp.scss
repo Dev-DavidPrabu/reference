@@ -1,0 +1,57 @@
+@import "../../App.scss";
+
+.modalpop {
+  &-wrapper {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  &-title {
+    // padding: 2rem 1rem 2rem 1rem;
+    font-weight: 700;
+    font-size: 18px;
+  }
+  &-buttons {
+    display: flex;
+    padding: 1px 0px 3rem;
+  }
+  &-confirm-buttons {
+    margin-right: 1rem;
+    background-color: $Redbtn;
+    width: 80px;
+    height: 30px;
+    font-weight: 500;
+    font-family: "Roboto", sans-serif;
+    color: white;
+    @include module-label;
+    &:hover {
+      background-color: #bb212a !important;
+    }
+  }
+  &-cancel-button {
+    background: $Greybtn;
+    height: 30px;
+    width: 80px;
+    font-family: "Roboto", sans-serif;
+    color: $black;
+    @include module-label;
+  }
+}
+
+.remarks-label {
+  font-size: 18px;
+  font-weight: 700;
+  margin: 0px 15px 0px 0px;
+}
+.remarks-container {
+  display: flex;
+  align-items: flex-start;
+  float: left;
+}
+.remarks-input {
+  height: 35px;
+  width: 300px;
+  background: #ffffff;
+  border: 1px solid #cfcfcf;
+  box-sizing: border-box;
+}

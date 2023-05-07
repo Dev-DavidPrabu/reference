@@ -1,0 +1,72 @@
+@import "../../App.scss";
+
+.global-setting {
+  &-back {
+    width: 77px;
+    height: 35px;
+    margin-top: -45px;
+    float: right;
+  }
+  &-Add {
+    width: 77px;
+    height: 35px;
+    margin-top: -45px;
+    float: right;
+    background-color: $Redbtn;
+  }
+  &-title {
+    @include edit-header;
+  }
+
+  &-label {
+    @include edit-form-label;
+    margin: 12px;
+    margin-left: 0rem;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    color: #000000;
+  }
+  &-mail {
+    margin-top: 10px;
+    width: 90%;
+    min-height: 25%;
+    background: #ffffff;
+    border: 1px solid #cfcfcf !important;
+    box-sizing: border-box;
+  }
+}
+.formRadiusGlobal {
+  margin-top: 10px;
+  width: 60%;
+  height: 35px;
+  background: #ffffff;
+  border: 1px solid #cfcfcf !important;
+  box-sizing: border-box;
+}
+.titleGlobal {
+  margin: 10px 10px 10px 10px;
+  &-headerGlobal {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 500 !important;
+    font-size: 25px;
+    line-height: 37px;
+    color: #000000;
+  }
+}
+
+.customerInfoWrapper {
+  background-color: $backColour;
+}
+.headerText {
+  margin-top: 30px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  color: #e30613;
+}

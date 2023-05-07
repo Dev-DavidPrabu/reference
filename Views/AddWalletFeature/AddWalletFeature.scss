@@ -1,0 +1,68 @@
+@import "../../App.scss";
+
+.wallet-inputLabelDetails {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  align-items: center;
+  color: #000000;
+}
+
+.wallet-limit-label {
+  @include HeadingTwo;
+}
+.wallet-enable-label {
+  @include label-wallet;
+}
+.wallet-switch {
+  border-radius: 15px;
+}
+
+.wallet-ant-switch-checked .wallet-ant-switch-handle::before {
+  color: white;
+  border-radius: 20px;
+}
+
+.wallet-ant-switch-handle::before {
+  color: white;
+  border-radius: 20px;
+}
+
+.form-switch .form-check-input {
+  background-color: #39c570;
+}
+
+.wallet-inputboxsize {
+  height: 35px;
+}
+
+.wallet-input {
+  outline: none;
+  height: 30px;
+  width: 80%;
+  font-size: 14px;
+}
+.wallet-input-textarea {
+  outline: none;
+  height: 50px;
+  width: 80%;
+  font-size: 14px;
+}
+
+.wallet-color {
+  color: #f44336;
+}
+.wallet-link {
+  color: $textblue;
+}
+.wallet-add-link {
+  background: $Greybtn;
+  height: 30px;
+  width: 80px;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  color: $black;
+  @include module-label;
+}

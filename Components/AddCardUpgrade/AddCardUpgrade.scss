@@ -1,0 +1,185 @@
+@import "../../App.scss";
+.card-Upgrade{
+    &-body{
+        background: $backColour;
+        width: 100%;
+        min-height: 350px;
+        max-height: 900px;
+    }
+    &-label{
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 16px;
+        margin-left: -5px;
+        &-color{
+            color: $Redbtn;
+        }
+    }
+    &-inputCode{
+        outline: none;
+        height: 35px;
+        width: 20%;
+        border-radius: 0px;
+    }
+    &-inputCode[readonly]{
+        background-color: $Greybtn;
+     }
+    &-inputMobile{
+        outline: none;
+        height: 35px;
+        width: 50%;
+        border-radius: 0px;
+    }
+    &-inputMobile[readonly]{
+        background-color: $Greybtn;
+     }
+    &-inputType{
+        outline: none;
+        height: 35px;
+        width: 100%;
+        border-radius: 0px;
+    }
+    &-inputType[readonly]{
+        background-color: $Greybtn;
+     }
+    &-inputTypeForm{
+        outline: none;
+        height: 35px;
+        width: 6rem;
+        border-radius: 0px;
+    }
+    &-inputTypeForm[readonly]{
+        background-color: $Greybtn;
+     }
+    &-formColor{
+        background: $formColor;
+        height: 6rem;
+        margin: 0rem;
+    }
+    &-formColorForm{
+        background: $formColor;
+        height:50px;
+        margin: 0rem;
+        text-align: center
+    }
+    &-title{
+        @include edit-header;
+    }
+    &-signature{
+        height: 12vh;
+        width: 150%;
+    }
+    &-back{
+        width: 77px;
+        height: 35px;
+    }
+    &-textLeft{
+        margin-left: 1px;
+    }
+    &-placeholder{
+        font-family: "Poppins",sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 20px;
+    }
+}
+.btnVerify{
+    background-color: $Redbtn;
+    border-color: $Redbtn;
+    height: 34px;
+}
+.btnVerify:hover{
+    background-color: $Redbtn;
+}
+.frontEyeCard {
+    width: 85px;
+    height: 35px;
+    background: $textGreen;
+    font-family: "Poppins",sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    align-items: center;
+    color: $white;
+    text-align: center;
+    padding: 8px;
+  }
+  .eyeiconleftCard {
+    margin-left: -3px;
+    margin-top: 3px;
+  }
+  .imageDiv{
+      background: $textGreen;
+      height: 200px;
+    }
+  .saveBtnImage{
+      background: $Redbtn;
+      border-color: $Redbtn;
+  }
+  .saveBtnImage:hover{
+    background: $Redbtn;
+    border-color: $Redbtn;
+}
+.btnDiv{
+    text-align: center;
+    margin-top: 10px;
+}
+.divHeight{
+    max-height: 350px;
+}
+.inputLeft{
+    margin-left: 15px;
+}
+.reasonText{
+    margin-left: 5px;
+}
+.imgViewPoint{
+    margin-left: -5rem !important;
+}
+.cus-img-view-point{
+    height: 100px;
+    width: 200px;
+}
+.frontEyeGet {
+    width: 13rem;
+    height: 30px;
+    background: $textGreen;
+    font-family: "Poppins",sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    align-items: center;
+    color: $white;
+    text-align: center;
+    padding: 8px;
+  }
+  .eyeIconleftGet {
+    margin-left: 4rem;
+    margin-top: 2px;
+  }
+  .walletChange{
+    margin-left: 0rem;
+    margin-top: -32px;
+  }
+  .docArrange{
+      padding-left: 12px;
+  }
+  .saveImageUpgrade{
+    background-color:$Redbtn;
+    color: $white;
+    border-color: $Redbtn;
+    width: 70px;
+    height: 35px;
+}
+.savePosition{
+    margin-left: 3px;
+
+}
+
+.passportWidth{
+    width: 22%;
+}
+
+
+

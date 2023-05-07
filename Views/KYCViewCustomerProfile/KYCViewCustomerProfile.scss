@@ -1,0 +1,42 @@
+.seperaterLabel {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 120%;
+  /* or 22px */
+
+  display: flex;
+  align-items: center;
+
+  color: #222;
+}
+
+.KYC-CustomerToggle {
+  opacity: 1;
+}
+
+.KYC-customerImage {
+  width: 50px;
+  height: 35px;
+  left: 0px;
+  top: 0px;
+  cursor: pointer;
+  background: #39c570;
+  &:hover {
+    background: #24ac59;
+  }
+}
+.KYCViewCustomer-label {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 120%;
+  /* identical to box height, or 17px */
+
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+  color: #000000;
+}

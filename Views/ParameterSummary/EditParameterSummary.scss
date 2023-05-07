@@ -1,0 +1,49 @@
+
+@import "../../App.scss";
+
+.edit-sum{
+    &-label{
+        @include edit-form-label;
+        &-color {
+            color: #f44336;
+          }
+    }
+    &-input{
+        outline: none;
+        height: 30px;
+        width: 90%;
+        &-value{
+            width: 60%;
+            margin-left: -2rem;
+        }
+    }
+    &-textarea{
+        outline: none;
+        width: 90%; 
+    }
+    &-usage{
+        outline: none;
+        height: 40px;
+        width: 90%; 
+    }
+    &-select{
+        height: 25px;
+        width: 55%;
+    }
+    &-save-button {
+        border-radius: 0;
+        width: 25%;
+        @include submit-label;
+      }
+    &-cancel-button {
+        background: lightgrey;
+        border-radius: 0;
+        width: 25%;
+        height: 34px;
+        font-weight: 500;
+    }
+    &-condition{
+        height: 30px;
+        width: 100%;
+    }
+}

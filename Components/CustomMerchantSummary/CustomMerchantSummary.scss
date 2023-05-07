@@ -1,0 +1,50 @@
+@import "../../App.scss";
+
+
+.current-page{
+    &-MerchantHQ {
+        background: $backColour;
+        min-width: 100px;
+        min-height: 35px;
+        font-size: 14px;
+        font-weight: 400;
+    }
+    &-Merchant-branch {
+        background: $backColour;
+        min-width: 100px;
+        min-height: 35px;
+        font-size: 14px;
+        font-weight: 400;
+    }
+    &-userRights {
+        background: $backColour;
+        min-width: 100px;
+        min-height: 35px;
+        font-size: 14px;
+        font-weight: 400;
+    }
+    &-groupRights {
+        background: $backColour;
+        min-width: 100px;
+        min-height: 35px;
+        font-size: 14px;
+        font-weight: 400;
+    }
+    
+}
+
+.custom-page-arrow {
+    position: relative;
+    background:$Redbtn !important;
+  }
+  
+  .custom-page-arrow::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: calc(50% - 10px);
+    background: $Redbtn;
+    width: 15px;
+    height: 10px;
+    clip-path: polygon(0 0, 100% 0, 50% 100%);
+  }

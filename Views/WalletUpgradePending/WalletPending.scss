@@ -1,0 +1,85 @@
+.WalletUpdatePending {
+  background: #36393a;
+  height: 100%;
+  &-input {
+    width: 100%;
+    height: 40px;
+    background: #ffffff;
+    border: 1px solid #cfcfcf;
+  }
+  &-filter {
+    background: gray;
+    width: 32px;
+    height: 25px;
+    font-size: 10px;
+  }
+  &-forword {
+    background: #867e7e;
+    width: 40px;
+    height: 30px;
+    font-size: 10px;
+  }
+  &-inputcode {
+    width: 55%;
+    padding: 1px;
+    font-size: 14px;
+  }
+}
+.colorRed {
+  color: #e30613;
+  float: right;
+  font-size: 14px;
+  font-weight: 400;
+}
+.filterInputAlign {
+  margin-top: -20px;
+}
+.generateBtn {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: #ffffff;
+  width: 135px;
+  height: 40px;
+  background: #39c570;
+}
+
+.generate-btn-div {
+  float: right;
+}
+
+.walletPending-label {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16px;
+  margin-left: -11px;
+}
+
+.wallet-mini {
+  font-size: 14px;
+}
+.disableButton {
+  background-color: #cfcfcf;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: white;
+  width: 135px;
+  height: 35px;
+}
+@media (max-width: 1280px) {
+  .wallet-mini {
+    font-size: 11px;
+  }
+  .WalletUpdatePending {
+    &-inputcode {
+      width: 55%;
+      padding: 1px;
+      font-size: 14px;
+    }
+  }
+}

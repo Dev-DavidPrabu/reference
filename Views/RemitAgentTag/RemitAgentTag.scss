@@ -1,0 +1,236 @@
+@import "../../App.scss";
+
+.remit-agent {
+  &-body {
+    background: #f3f3f3;
+    width: 75%;
+    min-height: 350px;
+    max-height: 500px;
+  }
+  &-back {
+    width: 77px;
+    height: 35px;
+  }
+  &-title {
+    @include edit-header;
+  }
+  &-label {
+    @include edit-form-label;
+    &-color {
+      color: #e30613;
+    }
+  }
+  &-input {
+    outline: none;
+    height: 30px;
+    width: 90%;
+    &-value {
+      width: 60%;
+    }
+  }
+  &-textarea {
+    width: 90%;
+  }
+  &-message {
+    color: #e30613;
+    @include edit-form-label;
+  }
+  &-save {
+    background: #e30613;
+    width: 80px;
+    height: 30px;
+    font-weight: 500;
+    @include module-label;
+  }
+  &-cancel {
+    background: #cfcfcf;
+    height: 30px;
+    width: 80px;
+    font-weight: 500;
+    @include module-label;
+  }
+  &-viewbutton {
+    background: #e30613;
+    width: 35px;
+    height: 35px;
+    font-weight: 500;
+    @include module-label;
+  }
+}
+.iconDivAgent {
+  margin: -16px;
+}
+.colorWhite {
+  color: white !important;
+}
+.colorRed {
+  color: #e30613;
+  float: right;
+  font-size: 14px;
+  font-weight: 400;
+}
+.selectCodeAgent {
+  color: white;
+  font-size: 10px;
+  padding: 5px 0px;
+}
+.inputModeAgent {
+  width: 80%;
+  height: 25px;
+  color: black;
+  font-size: 14px;
+  margin: 15px -155px;
+  border-radius: unset;
+}
+.selectModeAgent {
+  height: 25px;
+  color: black;
+  font-size: 9px;
+  margin: 15px 0px;
+  border-radius: unset;
+}
+.oneBtn-Agent {
+  padding: 36px 10px;
+  margin-left: -14px;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 90px;
+  height: 50px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 30px 40px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: white;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.texttt {
+  padding: 5px;
+}
+.nextBtnAgent {
+  border-radius: unset;
+  margin-right: 1rem;
+  width: 5rem;
+  background: #e30613;
+  border: none;
+  height: 2rem;
+  font-weight: bold;
+  float: right;
+  padding: 0px;
+  font-size: 13px !important;
+}
+
+.backBtnAgent {
+  border-radius: unset;
+  margin-right: 1rem;
+  width: 5rem;
+  color: #cfcfcf;
+  border: none;
+  height: 2rem;
+  font-weight: bold;
+  padding: 0px;
+  float: right;
+  font-size: 13px !important;
+}
+.forBtn-Agent {
+  margin: 4px;
+  min-height: 30px;
+  margin-top: -25px;
+}
+.text-Agent {
+  margin-left: 8px;
+}
+.filteredArea {
+  background-color: #f3f3f3;
+  height: 50px;
+  margin: 0px;
+  padding: 5px;
+  margin-bottom: 20px;
+  align-items: center;
+}
+.conColorAgent {
+  background-color: #cfcfcf;
+  height: 40px;
+  border-radius: 5px;
+  width: 220px;
+  align-items: center;
+}
+.closeIcon {
+  margin-top: -23px;
+  margin-left: -32px;
+  color: #e30613;
+  height: 1.5rem;
+  width: 1.5rem;
+}
+.paraTextAgent {
+  text-align: center;
+  margin-top: 5px;
+  font-size: 14px;
+}
+.editable-row .ant-form-item-explain {
+  position: absolute;
+  top: 100%;
+  font-size: 14px;
+}
+.agent-filter-section {
+  background: #36393a;
+  min-height: 170px;
+  &-input {
+    width: 95%;
+    height: 25px;
+    font-size: 10px;
+    font-weight: bold;
+  }
+  &-filter {
+    background: gray;
+    width: 32px;
+    height: 25px;
+    font-size: 10px;
+  }
+  &-forword {
+    background: #867e7e;
+    width: 40px;
+    height: 30px;
+    font-size: 10px;
+  }
+}
+.formRadiusAgent {
+  border-radius: unset;
+}
+.filterRowAgent {
+  margin-left: -34px;
+}
+.filterBtnAgent {
+  margin-top: 22px;
+  margin-right: -98px;
+  margin-left: -25px;
+}
+.inputFieldAgent {
+  margin-left: 12px;
+}
+.redAgent {
+  color: red;
+}
+.greenAgent {
+  color: #39c570;
+}

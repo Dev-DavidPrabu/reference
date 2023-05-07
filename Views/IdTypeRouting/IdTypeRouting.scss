@@ -1,0 +1,59 @@
+.idtype-heading{
+	display: inline;
+	margin-top: 20px;
+	margin-left:20px;
+	font-size: 35px;
+	font-weight: bold;
+
+}
+.add-idType{
+    float: right;
+    display:flex;
+}
+.export-btn{
+    background-color: #36393a;
+    border-radius: 0%;
+    margin-right: 10px;
+    padding: 5px 10px;
+}
+.idtype-table{
+    margin: 20px 10px 20px 20px;
+}
+.idtype-create{
+   
+    margin:50px 0px 20px 20px;
+    width:80%;
+}
+.idtype-edit{
+   
+    margin:50px 0px 20px 20px;
+    width:80%;
+}
+.idtype-input{
+    width:40%;
+    appearance: auto;
+    margin-left: 30px;
+    text-align: left;
+    border-radius: 0%;
+    font-size: 14px;
+}
+
+
+.fake-idtype{
+    height:30px;
+	width:42px;
+	background-color: #36393a;
+	position: relative;
+    right: 0px;
+}
+.selectSearch{
+    display: flex;
+	flex-direction: row;
+	margin: 10px 0px;
+}
+.idtypeSearch-input{
+    border-radius: 0px;
+    display: inline;
+    margin: 8px 0px;
+}
+

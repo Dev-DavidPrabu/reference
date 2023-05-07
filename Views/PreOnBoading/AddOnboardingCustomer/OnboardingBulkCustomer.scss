@@ -1,0 +1,71 @@
+@import "../../../App.scss";
+
+.bulk-customer {
+  &-upload-icon {
+    height: 40px;
+
+    background: $textGreen;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+  &-cursor {
+    cursor: pointer;
+  }
+  &-filename {
+    background-color: $Greybtn;
+    height: 30px;
+    border-radius: 5px;
+    min-width: 180px;
+    align-items: center;
+    &-text {
+      text-align: center;
+      margin-top: 2px;
+      font-size: 11px;
+    }
+    &-closeicon {
+      margin-top: -3px;
+      margin-left: -8px;
+      color: $Redbtn;
+
+      cursor: pointer;
+    }
+  }
+  &-note {
+    background-color: $noteBackground;
+  }
+  &-sample {
+    @include label-sample-file;
+  }
+  &-save {
+    background: $Redbtn;
+    width: 80px;
+    height: 30px;
+    font-weight: 500;
+    font-family: "Roboto", sans-serif;
+    color: white;
+    @include module-label;
+  }
+  &-save:hover {
+    background: $submithover;
+  }
+  &-cancel {
+    background: $Greybtn;
+    height: 30px;
+    width: 80px;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    color: $black;
+    @include module-label;
+  }
+  &-cancel:hover {
+    background: $cancelhover;
+    color: $black;
+  }
+}
+.backBulk {
+  width: 77px;
+  height: 35px;
+}

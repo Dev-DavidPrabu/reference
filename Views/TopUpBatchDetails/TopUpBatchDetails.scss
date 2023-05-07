@@ -1,0 +1,127 @@
+.SalaryUpload {
+  margin-top: 20px;
+}
+.SalaryUpload-row {
+  display: flex;
+  flex-direction: row;
+  padding: 20px 10px 10px 10px;
+  color: white;
+}
+.SalaryUpload-row span {
+  margin: 0 5px;
+}
+.salaryUpload-column {
+  display: flex;
+  width: 130px;
+  padding: 0 10px 0 10px;
+}
+.SalaryUpload-row input {
+  height: 30px;
+  border-radius: 0px;
+}
+
+.inputsalarypay {
+  width: 150px;
+  background-color: #cfcfcf;
+}
+.inputsalarypay1 {
+  width: 300px;
+  background-color: #cfcfcf;
+}
+.inputsalarypay2 {
+  width: 250px;
+  background-color: #cfcfcf;
+}
+.seperator {
+  width: 43%;
+}
+.balance {
+  width: 40%;
+}
+.salary_textarea {
+  border-radius: 0px;
+  height: 30px;
+}
+.deletedRecord {
+  pointer-events: none;
+}
+.status-warning {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  text-align: center;
+  color: #f87700;
+}
+.status-error {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  text-align: center;
+  color: #e30613;
+}
+
+.status-validated {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  text-align: center;
+  color: #39c570;
+}
+
+.aprrovalSubmit-form {
+  background-color: #36393a;
+}
+
+.approvalSubmit-label {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 120%;
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+  color: white;
+}
+
+.colExpected {
+  width: 250px;
+}
+
+.ApprovalValidation-error {
+  border-color: red;
+  background-color: #e0b9b9;
+}
+
+.topup_otp {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.topup_otpHeading {
+  font-weight: 700;
+  text-align: center;
+}
+.topup_otpNumber {
+  color: #e30613;
+  margin-top: 5px;
+}
+.topup_otpInputBox {
+  width: 40px !important;
+  height: 40px;
+  margin: 0 5px;
+  font-size: 14px;
+  border-radius: 0px;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+}
+.topup_otpFooter {
+  padding-left: 165px;
+  margin-bottom: 20px;
+}
+.topup_otpResend {
+  color: #e30613;
+  font-weight: 700;
+}
+.topup_otpResend:hover {
+  color: #a10510;
+}

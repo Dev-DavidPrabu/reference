@@ -1,0 +1,43 @@
+@import "../../App.scss";
+
+
+.edit-wallet{
+    font-family: 'Poppins',sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 25px;
+color: #000000;
+
+&-inputLabelDetails{
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    align-items: center;
+    color: #000000;
+    }
+&-input{
+    outline: none;
+    height: 30px;
+    width: 80%;
+    font-size: 14px;
+}
+&-inputboxsize{
+    height: 35px;
+    }
+&-input-textarea{
+    outline: none;
+    height: 80px;
+    width: 80%;
+    font-size: 14px;
+}
+&-color{
+    color: #f44336;
+}
+&-textcolor{
+    color: $textblue;
+}
+&-back-color{
+    background-color: $Greybtn;
+}
+}

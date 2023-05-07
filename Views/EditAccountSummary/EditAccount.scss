@@ -1,0 +1,66 @@
+@import "../../App.scss";
+.block-card-account{
+    &-body{
+        background: $backColour;
+        width: 100%;
+        min-height: 350px;
+        max-height: 100%;
+    }
+    &-label{
+        font-family: "Roboto", sans-serif
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 16px;
+       
+        margin-left: -5px;
+        &-color{
+            color: $Redbtn;
+        }
+    }
+    &-inputMobile{
+        outline: none;
+        height: 35px;
+        width: 250px;
+        border-radius: 0px;
+    }
+    &-inputMobileLarge{
+        outline: none;
+        height: 35px;
+        width: 275px;
+        border-radius: 0px;
+    }
+    &-inputMobileMedium{
+        outline: none;
+        height: 35px;
+        width: 150px;
+        border-radius: 0px;
+    }
+    &-inputTypeForm[readonly]{
+        background-color: $Greybtn;
+     }
+}
+.AccountgenerateBtn{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 18px;
+color: #FFFFFF;
+width: 60px;
+height: 35px;
+&-activeColor{
+    background: #39C570;
+&:hover{
+background: #24AC59;}
+    color:#FFFFFF;
+}
+&-fadeColor{
+    background: #FFFFFF;
+    color:#CFCFCF;
+}
+&-inactiveColor{
+    background: $Redbtn;
+    color:#FFFFFF;
+}
+}

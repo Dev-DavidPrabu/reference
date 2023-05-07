@@ -1,0 +1,53 @@
+@import "../../App.scss";
+
+.remit-txn {
+  &-filter {
+    height: 190px;
+    background: $filterBackground;
+  }
+  &-color {
+    color: $textblue;
+  }
+  &-cardRadius {
+    border-radius: 10px;
+    height: 120px;
+    background: #cfcfd0;
+    width: 90%;
+  }
+  &-total {
+    margin-top: 10px;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    color: #ffffff;
+  }
+  &-total-view {
+    background: $textGreen;
+    height: 40px;
+    width: 20%;
+    font-weight: 700;
+  }
+}
+.statusDiv {
+  width: 100px;
+  height: 40px;
+  background: #39c570;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  color: #ffffff;
+  padding: 10px;
+}
+
+.headingCard {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  text-align: center;
+  color: #000000;
+}
+.contentBody {
+  color: $Redbtn;
+  margin-top: -3rem;
+}

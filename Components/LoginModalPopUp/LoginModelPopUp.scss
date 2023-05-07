@@ -1,0 +1,12 @@
+@import "../../App.scss";
+
+.cancel-evnt {
+  display: flex;
+  justify-content: space-between;
+}
+
+.loginModelPopup{
+  &-error-text{
+    color: $Redbtn;
+  }
+}
